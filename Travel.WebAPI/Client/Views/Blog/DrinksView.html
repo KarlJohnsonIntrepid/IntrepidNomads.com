@@ -1,0 +1,56 @@
+﻿<!-- DrinksView.html -->
+
+<div class="blog-post">
+    <h1 class="area-title">
+        {{title}}
+    </h1>
+
+    <p>
+        During this trip we will be <s>drinking</s> reviewing the local drinks from around the world, every country has its own culinary delicacies,
+        but we are in search of the specialty beverages. Can we make it around the world in 80 drinks?
+    </p>
+
+    <br />
+    <br />
+
+    <spinner ng-show="initializing" class="spinner-absolute" />
+
+    <div class="row drinks">
+        <div class="col-xs-6">
+            <div ng-repeat="blog in blogs track by $index"  ng-if="$even">
+                <drinks></drinks>
+            </div>
+        </div>
+
+        <div class="col-xs-6">
+        <div ng-repeat="blog in blogs track by $index"  ng-if="$odd">
+            <drinks></drinks>
+        </div>
+    </div>
+    </div>
+    <br />
+    <!--<sharebuttons ng-hide="initializing"></sharebuttons>-->
+
+    <div id="detailsModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+
+                    <h3 class="modal-title"><span class="badge">{{selectedItem + 1}}</span> - Around the World In 80 Drinks</h3>                  
+                </div>
+                <div class="modal-body">
+
+                    <h1 class="blog-post-title">{{blogs[selectedItem].title}}</h1>
+                    <span class="modalMsg" ng-bind-html="bindHTML(blogs[selectedItem].content)">   </span>
+
+                    <hr />
+                    <div class="actionsBtns text-center">
+                        <button class="btn btn-default" ng-click="pagePrev()" ng-hide="isFirstPage()">Previous Drink - {{blogs[selectedItem - 1].title}}</button>
+                        <button class="btn btn-default text-right" ng-click="pageNext()" ng-hide="isLastPage()">Next Drink - {{blogs[selectedItem + 1].title}} </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div><!--/modal-->
+</div><!--/container-->

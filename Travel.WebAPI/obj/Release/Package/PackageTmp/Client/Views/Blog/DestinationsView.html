@@ -1,0 +1,129 @@
+﻿<!--Destinatons View-->
+<spinner ng-show="initializing" class="spinner-absolute" />
+<div class="blog-post">
+    <h1 class="area-title">
+        Destinations
+    </h1>
+
+    <div class="form-group">
+
+        <p>
+            Looking for information on a particular destination, want to know how much it costs to backpack on a budget around a particular country?
+        </p>
+
+        <p>
+            For each destination we will include our average costs per day and a breakdown of what we spent the money on.
+            We will also add any budget backpacking tips we pick up along the way as well as any useful information about that destination.
+        </p>
+
+        <p>Choose your destination...</p>
+
+    </div>
+
+    <br />
+
+    <div class="countries">
+
+        <h2 ng-bind="NorthAmerica"></h2>
+
+        <br />
+
+        <div class="row" style="min-height:150px;">
+            <div ng-repeat="d in destinations | filter:NorthAmerica track by $index">
+                <destination name="{{d.countryDescription}}" url="{{d.countryURL}}" image="{{d.imageURL}}" alt="{{d.imageDescription}}"></destination>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <h2 ng-bind="CentralAmerica"></h2>
+
+        <br />
+
+        <div class="row">
+            <div ng-repeat="d in destinations | filter:CentralAmerica track by $index">
+                <destination name="{{d.countryDescription}}" url="{{d.countryURL}}" image="{{d.imageURL}}" alt="{{d.imageDescription}}"></destination>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <h2 ng-bind="SouthAmerica"></h2>
+
+        <br />
+
+        <div class="row">
+            <div ng-repeat="d in destinations | filter:SouthAmerica track by $index">
+                <destination name="{{d.countryDescription}}" url="{{d.countryURL}}" image="{{d.imageURL}}" alt="{{d.imageDescription}}"></destination>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <h2 ng-bind="Europe"></h2>
+
+        <br />
+
+        <div class="row">
+            <div ng-repeat="d in destinations | filter:Europe track by $index">
+                <destination name="{{d.countryDescription}}" url="{{d.countryURL}}" image="{{d.imageURL}}" alt="{{d.imageDescription}}"></destination>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <h2 ng-bind="Asia"></h2>
+
+        <br />
+
+        <div class="row">
+            <div ng-repeat="d in destinations | filter:Asia track by $index">
+                <destination name="{{d.countryDescription}}" url="{{d.countryURL}}" image="{{d.imageURL}}" alt="{{d.imageDescription}}"></destination>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <h2 ng-bind="Africa"></h2>
+
+        <br />
+
+        <div class="row">
+            <div ng-repeat="d in destinations | filter:Africa track by $index">
+                <destination name="{{d.countryDescription}}" url="{{d.countryURL}}" image="{{d.imageURL}}" alt="{{d.imageDescription}}"></destination>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <h2 ng-bind="MiddleEast"></h2>
+
+        <br />
+
+        <div class="row">
+            <div ng-repeat="d in destinations | filter:MiddleEast track by $index">
+                <destination name="{{d.countryDescription}}" url="{{d.countryURL}}" image="{{d.imageURL}}" alt="{{d.imageDescription}}"></destination>
+            </div>
+        </div>
+        <br />
+        <br />
+
+        <h2 ng-bind="Australasia"></h2>
+
+        <br />
+
+        <div class="row">
+            <div ng-repeat="d in destinations | filter:Australasia track by $index">
+                <destination name="{{d.countryDescription}}" url="{{d.countryURL}}" image="{{d.imageURL}}" alt="{{d.imageDescription}}"></destination>
+            </div>
+        </div>
+        </div>
+        <br />
+
+
+    </div>
+
+    <br />
+    <br />
+
+<!--<sharebuttons ng-hide="initializing"></sharebuttons>-->

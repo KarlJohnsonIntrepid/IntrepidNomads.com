@@ -1,0 +1,47 @@
+﻿<!DOCTYPE html>
+<html ng-app="nomadsApp">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+
+    <title>Admin</title>
+
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/admin")
+
+
+    <link rel="icon" href="@Url.Content("~/content/favicon.ico")" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400|Amatic+SC' rel='stylesheet' type='text/css' />
+
+    @*Angular HTML5 Links*@
+    <base href="/" />
+
+</head>
+<body>
+
+    @Html.Partial("_AdminHeader")
+
+    <div class="container-fluid">
+            <div class="main">
+                    <div class="row padding-top">
+                            @RenderBody()
+                    </div>
+                    <!-- /.container -->
+
+                    <hr />
+
+                    <footer class="text-right">
+                        <p>&copy; @DateTime.Now.Year - Intrepid Nomads | Developed By Karl Johnson</p>
+                    </footer>
+            </div>
+    </div>
+
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+

@@ -1,0 +1,14 @@
+﻿<a class="thumbnail minheight thumbnail-pad-bot" ng-click="setSelectedItem($index)" data-toggle="modal" data-target="#detailsModal" style="margin-bottom: 20px;">
+    <img ng-src="{{blog.imageURL}}" alt="{{blog.title}}" class="fade-in" spinner-load  />
+    <div class="caption">
+        <h4>
+            <span class="badge" ng-bind="$index + 1"></span>
+            <span ng-bind="blog.title"> </span>
+        </h4>
+        <h5>
+
+            <span ng-bind="blog.countryDescription"></span>
+
+        </h5>
+    </div>
+</a>

@@ -1,0 +1,42 @@
+﻿body {
+    background: url("/Images/ErrorPageBackGround.jpg") no-repeat;
+    background-size: 100%;
+    background-color: #B3CBC4;
+}
+
+.msg-container {
+    background: #fff;
+    background: rgba(255,255,255,0.9);
+    text-align: center;
+    margin-top: 100px;
+    padding: 10px;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 100px;
+    color: #588C7C;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 60px;
+    color: #6a3e35;
+}
+
+@media (max-width:1300px) {
+    body {
+        background-size: 150%;
+    }
+}
+
+@media (max-width:767px) {
+    body {
+        background-size: 250%;
+    }
+
+    .msg-container {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}

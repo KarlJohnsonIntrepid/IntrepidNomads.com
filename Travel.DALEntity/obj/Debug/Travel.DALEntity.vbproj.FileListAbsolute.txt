@@ -1,0 +1,11 @@
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DALEntity\bin\Debug\Travel.DALEntity.dll.config
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DALEntity\bin\Debug\Travel.DALEntity.dll
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DALEntity\bin\Debug\Travel.DALEntity.pdb
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DALEntity\bin\Debug\Travel.DALEntity.xml
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DALEntity\bin\Debug\EntityFramework.dll
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DALEntity\bin\Debug\EntityFramework.xml
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DALEntity\obj\Debug\Travel.DALEntity.Resources.resources
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DALEntity\obj\Debug\Travel.DALEntity.vbproj.GenerateResource.Cache
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DALEntity\obj\Debug\Travel.DALEntity.dll
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DALEntity\obj\Debug\Travel.DALEntity.xml
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DALEntity\obj\Debug\Travel.DALEntity.pdb

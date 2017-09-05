@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="TravelEntities-Web.config Connection String" description="TravelEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/;provider=System.Data.SqlClient;provider connection string=&quot;data source=REDDWARF\SQLEXPRESS;initial catalog=Travel;user id=sa;password=C0mp455;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\karl\\OneDrive\\Documents\\Blog\\Version_2\\Web\\Travel\\Travel\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='TravelEntities']/@connectionString" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=sql9.hostinguk.net;Initial Catalog=Travel;User ID=TravelUser;Password=C0mp455" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\karl\\OneDrive\\Documents\\Blog\\Version_2\\Web\\Travel\\Travel\.Web\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+</parameters>

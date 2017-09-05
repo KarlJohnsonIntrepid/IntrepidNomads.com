@@ -1,0 +1,18 @@
+﻿{
+  "version": "2.2.2",
+  "output": "Warning",
+  "ignore": [],
+  "options": {
+    "browser": true,
+    "devel": true,
+    "for": true
+  },
+  "globalVariables": [
+    "nomadsApp",
+    "jQuery",
+    "$",
+    "google",
+    "toastr"
+  ],
+  "runOnSave": true
+}

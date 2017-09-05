@@ -1,0 +1,144 @@
+﻿<spinner class="grid-spinner" ng-show="initializing" />
+<div class="panel panel-default">
+
+    <h1 class="admin-title"> Categories and Diary</h1>
+
+    <!--Grid-->
+    <div class="row">
+        <div class="col-md-12">
+
+            <label for="txtSearch">Search:</label> <input type="text" name="txtSearch" ng-model="search" />
+            <button ng-click="addNew()" class="btn" data-toggle="modal" data-target="#detailsModal">Add New</button>
+        </div>
+    </div>
+
+    <br />
+    <table class="table table-striped table-bordered" ng-hide="initializing">
+        <thead>
+            <tr>
+                <th class="buttonColumn"></th>
+                <th>Category</th>
+                <th>Main Image</th>
+                <th>Is Diary?</th>
+                <th class="buttonColumn"></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="c in categories|filter:search track by $index">
+                <td><button class="btn btn-sm" ng-click="editRow($index)" data-toggle="modal" data-target="#detailsModal">Edit</button></td>
+                <th><img src="{{c.thumbnailURL}}" height="40"/></th>
+                <td><a ng-href="{{c.linkURL}}" target="_blank" >{{c.categoryDescription}}</a></td>
+                <td><input type="checkbox" ng-checked="{{c.isFeature}}" /></td>
+                <td><button class="btn btn-sm" ng-click="deleteRow($index)">Delete</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="text-center" ng-hide="initializing">
+        <uib-pagination total-items="totalItems" ng-model="currentPage" items-per-page="pager.numPerPage()" ng-change="pageChanged()" ng-hide="initializing" rotate="true" boundary-link-numbers="true" max-size="10"></uib-pagination>
+    </div>
+    <!--End Grid-->
+
+</div>
+
+<div id="detailsModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-sm modal-admin">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+
+                <h3 class="modal-title">Category - {{selectedItem.categoryDescription}}</h3>
+            </div>
+            <div class="modal-body">
+
+                <!--Details Form-->
+
+                <form name="form" ng-submit="submitForm()">
+
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <div class="form-group">
+                                <label for="txtcategory">Category\Diary Title:</label>
+                                <input type="text" ng-model="selectedItem.categoryDescription" name="txtcategory" class="form-control" placeholder="Category" required />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="txtSeoTitle">SEO Title:</label>
+                                <input type="text" ng-model="selectedItem.seoTitle" name="txtSeoTitle" class="form-control" AutoCompleteType="None" required maxlength="64" />
+
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class="form-group">
+                                <label for="txtSeoDescription">SEO Description:</label>
+                                <input type="text" ng-model="selectedItem.seoDescription" name="txtSeoDescription" class="form-control" AutoCompleteType="None" maxlength="160" />
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="txtContent">Category Information:</label>
+                        <textarea ui-tinymce="tinymceOptions" style="height:400px;" name="txtContent" ng-model="selectedItem.categoryInformation" rows="20" class="form-control" AutoCompleteType="None" />
+
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <div class="form-group">
+                                <label for="chkReverseOrder">Reverse Date Order:</label>
+                                <input type="checkbox" ng-model="selectedItem.reverseDateOrder" name="chkReverseOrder" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="chkFeature">Is Diary:</label>
+                                <input type="checkbox" ng-model="selectedItem.isFeature" name="chkFeature" />
+                            </div>
+
+                            <div class="form-group">
+                                <label for="chkFeature">Show In Menu:</label>
+                                <input type="checkbox" ng-model="selectedItem.showInMenu" name="chkShowInMenu" />
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class="form-group">
+                                <label for="ddlShowFeature">Show Feature In This Category</label>
+                                <select name="ddlShowFeature" ng-model="selectedItem.parentCategoryID" class="form-control" ng-options="c.categoryID as c.categoryDescription for c in categories">
+                                    <option value="">--Select --- </option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="ddlShowFeatureCountry">Show Feature In This Country</label>
+                                <select name="ddlShowFeatureCountry" ng-model="selectedItem.parentCountryID" class="form-control" ng-options="c.countryID as c.countryDescription for c in destinations">
+                                    <option value="">--Select ---</option>
+                                </select>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="txtImage">Image ID:</label>
+                        <input type="text" name="txtImage" ng-model="selectedItem.categoryImageID" class="form-control" AutoCompleteType="None" />
+                    </div>
+
+                    <hr />
+
+                    <modal-button-bar datasource="pagedItems" selected="selectedIndex" isNew="isNew" setselected="setSelectedItem(i)" submit="submitForm()"></modal-button-bar>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div><!--/modal-->
+

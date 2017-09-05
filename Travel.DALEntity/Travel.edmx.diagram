@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="2343804ed06843b186ef9e7e842614bd" Name="Diagram1" ZoomLevel="85">
+        <EntityTypeShape EntityType="TravelModel.Author" Width="1.5" PointX="3" PointY="11.5" />
+        <EntityTypeShape EntityType="TravelModel.Blog" Width="1.5" PointX="5.25" PointY="1" />
+        <EntityTypeShape EntityType="TravelModel.Category" Width="1.5" PointX="3" PointY="7.5" />
+        <EntityTypeShape EntityType="TravelModel.Continent" Width="1.5" PointX="0.75" PointY="2.625" />
+        <EntityTypeShape EntityType="TravelModel.Country" Width="1.5" PointX="3" PointY="2" />
+        <EntityTypeShape EntityType="TravelModel.Location" Width="1.5" PointX="5.75" PointY="6.75" />
+        <EntityTypeShape EntityType="TravelModel.vBlog" Width="1.5" PointX="7.75" PointY="0.75" />
+        <EntityTypeShape EntityType="TravelModel.vCategory" Width="1.5" PointX="7.75" PointY="7.75" />
+        <EntityTypeShape EntityType="TravelModel.vCountry" Width="1.5" PointX="9.75" PointY="0.75" />
+        <EntityTypeShape EntityType="TravelModel.vUploadedImage" Width="1.5" PointX="9.75" PointY="4.75" />
+        <AssociationConnector Association="TravelModel.FK_Blog_Author" />
+        <AssociationConnector Association="TravelModel.FK_Blog_Category" />
+        <AssociationConnector Association="TravelModel.FK_Blog_Country" />
+        <AssociationConnector Association="TravelModel.FK_Country_Continent" />
+        <EntityTypeShape EntityType="TravelModel.UploadedImage" Width="1.5" PointX="10.375" PointY="7.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

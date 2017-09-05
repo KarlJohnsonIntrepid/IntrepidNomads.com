@@ -1,0 +1,31 @@
+﻿<!--Diaries.html -->
+<spinner ng-show="initializing" class="spinner-absolute" />
+<div class="blog-post">
+
+    <h1 class="area-title">
+        Travel Diaries
+    </h1>
+
+    <div class="form-group">
+        <p>
+            Ever thought of trekking to Everest Base Camp or Hiking the Atlas Mountains? See what life is really like by reading our day-by-day diaries of our more unique trips.
+        </p>
+        <p>Select a diary to find out more...</p>
+        <br />
+    </div>
+
+    <div ng-repeat="diary in diaries">
+        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+
+            <a ng-href="{{diary.linkURL}}">
+                <div class="thumbnail with-caption">
+                    <img ng-src="{{diary.imageURL}}" class="img-responsive fade-in" spinner-load />
+                    <p>
+                        <span ng-bind="diary.categoryDescription"> </span>
+                    </p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+

@@ -1,0 +1,87 @@
+﻿<%@ Master Language="VB" MasterPageFile="~/Site.Master" AutoEventWireup="false" CodeBehind="admin.master.vb" Inherits="Travel.Web.admin" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
+    <meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+    <link href="<%: ResolveUrl("~/Content/dashboard.css")%>" rel="stylesheet" />
+    <asp:ContentPlaceHolder runat="server" ID="HeadContent" />
+</asp:Content>
+
+<asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Intrepid Nomads</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li runat="server" id="mnuOverview1"><a href="<%: ResolveUrl("~/Admin/admin.aspx")%>">Overview</a></li>
+                    <li runat="server" id="mnuBlog1"><a href="<%: ResolveUrl("~/Admin/admin_blog.aspx")%>">Blog Entries</a></li>
+                    <li runat="server" id="mnuImages1"><a href="<%: ResolveUrl("~/Admin/uploads/imageupload.aspx")%>">Image Management</a></li>
+                    <li runat="server" id="mnuHomePage1"><a href="<%: ResolveUrl("~/Admin/admin_home.aspx")%>">Slide Show</a></li>
+                    <li runat="server" id="mnuCategorie1s"><a href="<%: ResolveUrl("~/Admin/admin_categories.aspx")%>">Categories</a></li>
+                    <li runat="server" id="mnuCountries1"><a href="<%: ResolveUrl("~/Admin/admin_countries.aspx")%>">Destinations</a></li>
+                    <li runat="server" id="mnuLocations1"><a href="<%: ResolveUrl("~/Admin/admin_locations.aspx")%>">Locations</a></li>
+                    <li runat="server" id="mnuErrorLog1"><a href="<%: ResolveUrl("~/elmah.axd")%>">Error Log</a></li>
+                    <li>
+                        <section id="login">
+                            <asp:LoginView runat="server" ViewStateMode="Disabled">
+                                <AnonymousTemplate>
+                                    <ul>
+                                        <li><a id="registerLink" runat="server" href="~/Account/Register.aspx">Register</a></li>
+                                        <li><a id="loginLink" runat="server" href="~/Account/Login.aspx">Log in</a></li>
+                                    </ul>
+                                </AnonymousTemplate>
+                                <LoggedInTemplate>
+                                    <p>
+                                        Hello, <a runat="server" class="username" href="~/Account/Manage.aspx" title="Manage your account">
+                                            <asp:LoginName runat="server" CssClass="username" />
+                                        </a>!
+                                <asp:LoginStatus runat="server" LogoutAction="Redirect" LogoutText="Log off" LogoutPageUrl="~/home" />
+                                    </p>
+                                </LoggedInTemplate>
+                            </asp:LoginView>
+                        </section>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3 col-md-2 sidebar">
+                <ul class="nav nav-sidebar ">
+                    <li runat="server" id="mnuOverview"><a href="<%: ResolveUrl("~/Admin/admin.aspx")%>">Overview</a></li>
+                    <li runat="server" id="mnuBlog"><a href="<%: ResolveUrl("~/Admin/admin_blog.aspx")%>">Blog Entries</a></li>
+                    <li runat="server" id="mnuImages"><a href="<%: ResolveUrl("~/Admin/uploads/imageupload.aspx")%>">Image Management</a></li>
+                    <li runat="server" id="mnuHomePage"><a href="<%: ResolveUrl("~/Admin/admin_home.aspx")%>">Slide Show</a></li>
+                    <li runat="server" id="mnuCategories"><a href="<%: ResolveUrl("~/Admin/admin_categories.aspx")%>">Categories</a></li>
+                    <li runat="server" id="mnuCountries"><a href="<%: ResolveUrl("~/Admin/admin_countries.aspx")%>">Destinations</a></li>
+                    <li runat="server" id="mnuLocations"><a href="<%: ResolveUrl("~/Admin/admin_locations.aspx")%>">Locations</a></li>
+                </ul>
+                <ul class="nav nav-sidebar">
+                    <li runat="server" id="Li1"><a href="<%: ResolveUrl("~/elmah.axd")%>">Error Log</a></li>
+                    <li><a href="http://www.google.com/analytics/">Analytics</a></li>
+                    <li><a href="https://login.mailchimp.com/">Email List</a></li>
+                    <li><a href="https://disqus.com/profile/login/">Comment Management</a></li>
+                    <li runat="server" id="mnuWebsite"><a href="<%: ResolveUrl("~/")%>">View Website</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+                <h1 runat="server" id="lblPageTitle" class="page-header"></h1>
+                <asp:ContentPlaceHolder runat="server" ID="MainContent" />
+            </div>
+
+        </div>
+    </div>
+
+</asp:Content>

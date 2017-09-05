@@ -1,0 +1,1 @@
+C:\Users\karl\OneDrive\Documents\Blog\Version_2\Web\Travel\Travel.WebAPI.Tests\obj\Debug\Travel.WebAPI.Tests.csprojResolveAssemblyReference.cache

@@ -1,0 +1,1287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{E4E463AE-183D-4C7A-A98A-F5DD0384A199}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Travel.Web</RootNamespace>
+    <AssemblyName>Travel.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+    <WebGreaseLibPath>..\packages\WebGrease.1.5.2\lib</WebGreaseLibPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Travel.Web.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PublishDatabaseSettings>
+      <Objects>
+        <ObjectGroup Name="DefaultConnection-Deployment" Order="1" xmlns="">
+          <Destination Path="Server=sql9.hostinguk.net%3bDatabase=Travel%3bUid=TravelUser%3bPassword=C0mp455" />
+          <Object Type="DbFullSql">
+            <Source Path="..\..\..\..\..\..\..\Desktop\CREATE primary key uploaded images.sql" Transacted="False" />
+          </Object>
+        </ObjectGroup>
+      </Objects>
+    </PublishDatabaseSettings>
+    <ExcludeGeneratedDebugSymbol>true</ExcludeGeneratedDebugSymbol>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>Travel.Web.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <Prefer32Bit>false</Prefer32Bit>
+    <PublishDatabases>true</PublishDatabases>
+    <DeployIisAppPath>travelwac.com</DeployIisAppPath>
+    <IncludeIisSettings>false</IncludeIisSettings>
+    <DeployIisAppPhysicalPath>C:\HostingSpaces\travelwa\travelwac.com\wwwroot\Travel</DeployIisAppPhysicalPath>
+    <PrecompileBeforePublish>false</PrecompileBeforePublish>
+    <PublishDatabaseSettings>
+      <Objects>
+        <ObjectGroup Name="DefaultConnection-Deployment" Order="1">
+          <Destination Path="Server=sql9.hostinguk.net%3bDatabase=Travel%3bUid=TravelUser%3bPassword=C0mp455" />
+          <Object Type="DbFullSql">
+            <PreSource Path="Data Source=LEANNE-HP\SQLEXPRESS%3bInitial Catalog=Travel%3bUser ID=sa%3bPassword=%28Cc243" ScriptSchema="True" ScriptData="True" CopyAllFullTextCatalogs="False" DriDefaults="True" />
+            <Source Path="obj\Release\AutoScripts\DefaultConnection-Deployment_SchemaAndData.sql" Transacted="True" />
+          </Object>
+        </ObjectGroup>
+      </Objects>
+    </PublishDatabaseSettings>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit">
+      <HintPath>..\packages\AjaxControlToolkit.7.1213\lib\40\AjaxControlToolkit.dll</HintPath>
+    </Reference>
+    <Reference Include="AjaxMin">
+      <HintPath>..\packages\AjaxMin.4.97.4951.28483\lib\net40\AjaxMin.dll</HintPath>
+    </Reference>
+    <Reference Include="Antlr3.Runtime">
+      <HintPath>..\packages\Antlr.3.4.1.9004\lib\Antlr3.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="AspNet.ScriptManager.jQuery, Version=1.9.1.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.1.9.1\lib\net40\AspNet.ScriptManager.jQuery.dll</HintPath>
+    </Reference>
+    <Reference Include="AttributeRouting">
+      <HintPath>..\packages\AttributeRouting.Core.3.5.6\lib\net40\AttributeRouting.dll</HintPath>
+    </Reference>
+    <Reference Include="AttributeRouting.Web">
+      <HintPath>..\packages\AttributeRouting.Core.Web.3.5.6\lib\net40\AttributeRouting.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="AttributeRouting.Web.Http">
+      <HintPath>..\packages\AttributeRouting.Core.Http.3.5.6\lib\net40\AttributeRouting.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="AttributeRouting.Web.Http.WebHost">
+      <HintPath>..\packages\AttributeRouting.WebApi.3.5.6\lib\net40\AttributeRouting.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper">
+      <HintPath>..\packages\AutoMapper.3.3.1\lib\net40\AutoMapper.dll</HintPath>
+    </Reference>
+    <Reference Include="AutoMapper.Net4">
+      <HintPath>..\packages\AutoMapper.3.3.1\lib\net40\AutoMapper.Net4.dll</HintPath>
+    </Reference>
+    <Reference Include="Elmah">
+      <HintPath>..\packages\elmah.corelibrary.1.2.2\lib\Elmah.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="HtmlAgilityPack">
+      <HintPath>..\packages\HtmlAgilityPack.1.4.6\lib\Net40\HtmlAgilityPack.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.Edm, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Data.Edm.5.2.0\lib\net40\Microsoft.Data.Edm.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.OData, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Microsoft.Data.OData.5.2.0\lib\net40\Microsoft.Data.OData.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Configuration">
+      <HintPath>..\packages\Microsoft.WindowsAzure.ConfigurationManager.1.8.0.0\lib\net35-full\Microsoft.WindowsAzure.Configuration.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsAzure.Storage">
+      <HintPath>..\packages\WindowsAzure.Storage.2.1.0.4\lib\net40\Microsoft.WindowsAzure.Storage.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Newtonsoft.Json.4.5.6\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Data.Services.Client" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Client.4.0.20710.0\lib\net40\System.Net.Http.Formatting.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.WebRequest" />
+    <Reference Include="System.Spatial, Version=5.2.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\System.Spatial.5.2.0\lib\net40\System.Spatial.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.Core.4.0.20710.0\lib\net40\System.Web.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Http.WebHost, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
+      <Private>True</Private>
+      <HintPath>..\packages\Microsoft.AspNet.WebApi.WebHost.4.0.20710.0\lib\net40\System.Web.Http.WebHost.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Optimization">
+      <HintPath>..\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="AspNet.ScriptManager.jQuery.UI.Combined">
+      <HintPath>..\packages\AspNet.ScriptManager.jQuery.UI.Combined.1.8.24\lib\net40\AspNet.ScriptManager.jQuery.UI.Combined.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.Providers, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Providers.Core.1.2\lib\net40\System.Web.Providers.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.Core, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.Core.4.1.4.12333\lib\net40-full\DotNetOpenAuth.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Core.4.1.4.12333\lib\net40-full\DotNetOpenAuth.OAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OAuth.Consumer, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OAuth.Consumer.4.1.4.12333\lib\net40-full\DotNetOpenAuth.OAuth.Consumer.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.Core.4.1.4.12333\lib\net40-full\DotNetOpenAuth.OpenId.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.OpenId.RelyingParty, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.OpenId.RelyingParty.4.1.4.12333\lib\net40-full\DotNetOpenAuth.OpenId.RelyingParty.dll</HintPath>
+    </Reference>
+    <Reference Include="DotNetOpenAuth.AspNet, Version=4.0.0.0, Culture=neutral, PublicKeyToken=2780ccd10d57b246, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\DotNetOpenAuth.AspNet.4.1.4.12333\lib\net40-full\DotNetOpenAuth.AspNet.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.Membership.OpenAuth, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.Membership.OpenAuth.1.0.1\lib\net40\Microsoft.AspNet.Membership.OpenAuth.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.AspNet.FriendlyUrls, Version=1.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+      <HintPath>..\packages\Microsoft.AspNet.FriendlyUrls.Core.1.0.0\lib\net40\Microsoft.AspNet.FriendlyUrls.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Visualization, Version=1.3.0.39301, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Resources\Visualization.dll</HintPath>
+    </Reference>
+    <Reference Include="WebActivator">
+      <HintPath>..\packages\WebActivator.1.0.0.0\lib\WebActivator.dll</HintPath>
+    </Reference>
+    <Reference Include="WebGrease">
+      <HintPath>..\packages\WebGrease.1.5.2\lib\WebGrease.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Data.Linq" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Linq.Expressions" />
+    <Import Include="System.Web.Optimization" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.Routing" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+    <Import Include="Travel.Business" />
+    <Import Include="Travel.Common" />
+    <Import Include="Travel.DAL" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Admin\admin.aspx" />
+    <Content Include="Admin\admin_home.aspx" />
+    <Content Include="Admin\admin_locations.aspx" />
+    <Content Include="Admin\Shared\admin_addnewbuttons.ascx" />
+    <Content Include="Admin\admin_blog.aspx" />
+    <Content Include="Admin\admin_categories.aspx" />
+    <Content Include="Admin\admin_countries.aspx" />
+    <Content Include="Admin\Uploads\imageupload.aspx" />
+    <Content Include="App_Readme\Elmah.SqlServer.sql" />
+    <Content Include="App_Readme\Elmah.SqlServer.txt" />
+    <Content Include="App_Readme\Elmah.txt" />
+    <Content Include="Content\dashboard.css" />
+    <Content Include="Content\fancybox\demo\1_b.jpg" />
+    <Content Include="Content\fancybox\demo\1_s.jpg" />
+    <Content Include="Content\fancybox\demo\2_b.jpg" />
+    <Content Include="Content\fancybox\demo\2_s.jpg" />
+    <Content Include="Content\fancybox\demo\3_b.jpg" />
+    <Content Include="Content\fancybox\demo\3_s.jpg" />
+    <Content Include="Content\fancybox\demo\4_b.jpg" />
+    <Content Include="Content\fancybox\demo\4_s.jpg" />
+    <Content Include="Content\fancybox\demo\5_b.jpg" />
+    <Content Include="Content\fancybox\demo\5_s.jpg" />
+    <Content Include="Content\fancybox\demo\ajax.txt" />
+    <Content Include="Content\fancybox\demo\iframe.html" />
+    <Content Include="Content\fancybox\demo\index.html" />
+    <Content Include="Content\fancybox\lib\jquery-1.10.1.min.js" />
+    <Content Include="Content\fancybox\lib\jquery-1.9.0.min.js" />
+    <Content Include="Content\fancybox\lib\jquery.mousewheel-3.0.6.pack.js" />
+    <Content Include="Content\fancybox\source\blank.gif" />
+    <Content Include="Content\fancybox\source\fancybox_loading%402x.gif" />
+    <Content Include="Content\fancybox\source\fancybox_loading.gif" />
+    <Content Include="Content\fancybox\source\fancybox_overlay.png" />
+    <Content Include="Content\fancybox\source\fancybox_sprite%402x.png" />
+    <Content Include="Content\fancybox\source\fancybox_sprite.png" />
+    <Content Include="Content\fancybox\source\helpers\fancybox_buttons.png" />
+    <Content Include="Content\fancybox\source\helpers\jquery.fancybox-buttons.css" />
+    <Content Include="Content\fancybox\source\helpers\jquery.fancybox-buttons.js" />
+    <Content Include="Content\fancybox\source\helpers\jquery.fancybox-media.js" />
+    <Content Include="Content\fancybox\source\helpers\jquery.fancybox-thumbs.css" />
+    <Content Include="Content\fancybox\source\helpers\jquery.fancybox-thumbs.js" />
+    <Content Include="Content\fancybox\source\jquery.fancybox.css" />
+    <Content Include="Content\fancybox\source\jquery.fancybox.js" />
+    <Content Include="Content\fancybox\source\jquery.fancybox.pack.js" />
+    <Content Include="Content\signin.css" />
+    <Content Include="Content\home.css" />
+    <Content Include="Content\slick\ajax-loader.gif" />
+    <Content Include="Content\slick\fonts\slick.svg" />
+    <Content Include="Content\slick\slick-theme.css">
+      <DependentUpon>slick-theme.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\slick\slick-theme.css.map">
+      <DependentUpon>slick-theme.css</DependentUpon>
+    </Content>
+    <Content Include="Content\slick\slick-theme.min.css">
+      <DependentUpon>slick-theme.css</DependentUpon>
+    </Content>
+    <Content Include="Content\slick\slick-theme.scss" />
+    <Content Include="Content\slick\slick.js" />
+    <Content Include="Content\slick\slick.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\license.txt" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\advlist\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\anchor\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\autolink\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\autoresize\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\autosave\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\bbcode\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\charmap\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\code\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\contextmenu\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\directionality\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\emoticons\img\smiley-cool.gif" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\emoticons\img\smiley-cry.gif" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\emoticons\img\smiley-embarassed.gif" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\emoticons\img\smiley-foot-in-mouth.gif" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\emoticons\img\smiley-frown.gif" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\emoticons\img\smiley-innocent.gif" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\emoticons\img\smiley-kiss.gif" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\emoticons\img\smiley-laughing.gif" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\emoticons\img\smiley-money-mouth.gif" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\emoticons\img\smiley-sealed.gif" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\emoticons\img\smiley-smile.gif" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\emoticons\img\smiley-surprised.gif" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\emoticons\img\smiley-tongue-out.gif" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\emoticons\img\smiley-undecided.gif" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\emoticons\img\smiley-wink.gif" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\emoticons\img\smiley-yell.gif" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\emoticons\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\example\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\example_dependency\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\fullpage\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\fullscreen\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\hr\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\image\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\importcss\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\insertdatetime\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\layer\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\legacyoutput\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\link\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\lists\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\media\moxieplayer.swf" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\media\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\nonbreaking\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\noneditable\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\pagebreak\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\paste\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\preview\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\print\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\save\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\searchreplace\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\spellchecker\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\tabfocus\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\table\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\template\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\textcolor\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\visualblocks\css\visualblocks.css" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\visualblocks\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\visualchars\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\plugins\wordcount\plugin.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\skins\lightgray\content.inline.min.css" />
+    <Content Include="Content\tinymce\js\tinymce\skins\lightgray\content.min.css" />
+    <Content Include="Content\tinymce\js\tinymce\skins\lightgray\fonts\tinymce-small.svg" />
+    <Content Include="Content\tinymce\js\tinymce\skins\lightgray\fonts\tinymce.svg" />
+    <Content Include="Content\tinymce\js\tinymce\skins\lightgray\img\anchor.gif" />
+    <Content Include="Content\tinymce\js\tinymce\skins\lightgray\img\loader.gif" />
+    <Content Include="Content\tinymce\js\tinymce\skins\lightgray\img\object.gif" />
+    <Content Include="Content\tinymce\js\tinymce\skins\lightgray\img\trans.gif" />
+    <Content Include="Content\tinymce\js\tinymce\skins\lightgray\skin.ie7.min.css" />
+    <Content Include="Content\tinymce\js\tinymce\skins\lightgray\skin.min.css" />
+    <Content Include="Content\tinymce\js\tinymce\themes\modern\theme.min.js" />
+    <Content Include="Content\tinymce\js\tinymce\tinymce.min.js" />
+    <Content Include="Content\tinymce\license.txt" />
+    <Content Include="Content\tinymce\plugins\advlist\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\anchor\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\autolink\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\autoresize\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\autosave\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\bbcode\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\charmap\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\code\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\contextmenu\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\directionality\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\emoticons\img\smiley-cool.gif" />
+    <Content Include="Content\tinymce\plugins\emoticons\img\smiley-cry.gif" />
+    <Content Include="Content\tinymce\plugins\emoticons\img\smiley-embarassed.gif" />
+    <Content Include="Content\tinymce\plugins\emoticons\img\smiley-foot-in-mouth.gif" />
+    <Content Include="Content\tinymce\plugins\emoticons\img\smiley-frown.gif" />
+    <Content Include="Content\tinymce\plugins\emoticons\img\smiley-innocent.gif" />
+    <Content Include="Content\tinymce\plugins\emoticons\img\smiley-kiss.gif" />
+    <Content Include="Content\tinymce\plugins\emoticons\img\smiley-laughing.gif" />
+    <Content Include="Content\tinymce\plugins\emoticons\img\smiley-money-mouth.gif" />
+    <Content Include="Content\tinymce\plugins\emoticons\img\smiley-sealed.gif" />
+    <Content Include="Content\tinymce\plugins\emoticons\img\smiley-smile.gif" />
+    <Content Include="Content\tinymce\plugins\emoticons\img\smiley-surprised.gif" />
+    <Content Include="Content\tinymce\plugins\emoticons\img\smiley-tongue-out.gif" />
+    <Content Include="Content\tinymce\plugins\emoticons\img\smiley-undecided.gif" />
+    <Content Include="Content\tinymce\plugins\emoticons\img\smiley-wink.gif" />
+    <Content Include="Content\tinymce\plugins\emoticons\img\smiley-yell.gif" />
+    <Content Include="Content\tinymce\plugins\emoticons\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\example\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\example_dependency\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\fullpage\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\fullscreen\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\hr\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\image\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\importcss\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\insertdatetime\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\layer\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\legacyoutput\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\link\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\lists\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\media\moxieplayer.swf" />
+    <Content Include="Content\tinymce\plugins\media\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\nonbreaking\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\noneditable\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\pagebreak\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\paste\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\preview\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\print\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\save\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\searchreplace\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\spellchecker\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\tabfocus\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\table\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\template\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\textcolor\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\visualblocks\css\visualblocks.css" />
+    <Content Include="Content\tinymce\plugins\visualblocks\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\visualchars\plugin.min.js" />
+    <Content Include="Content\tinymce\plugins\wordcount\plugin.min.js" />
+    <Content Include="Content\tinymce\skins\lightgray\content.inline.min.css" />
+    <Content Include="Content\tinymce\skins\lightgray\content.min.css" />
+    <Content Include="Content\tinymce\skins\lightgray\fonts\tinymce-small.svg" />
+    <Content Include="Content\tinymce\skins\lightgray\fonts\tinymce.svg" />
+    <Content Include="Content\tinymce\skins\lightgray\img\anchor.gif" />
+    <Content Include="Content\tinymce\skins\lightgray\img\loader.gif" />
+    <Content Include="Content\tinymce\skins\lightgray\img\object.gif" />
+    <Content Include="Content\tinymce\skins\lightgray\img\trans.gif" />
+    <Content Include="Content\tinymce\skins\lightgray\skin.ie7.min.css" />
+    <Content Include="Content\tinymce\skins\lightgray\skin.min.css" />
+    <Content Include="Content\tinymce\themes\modern\theme.min.js" />
+    <Content Include="Content\tinymce\tinymce.min.js" />
+    <Content Include="Images\80drinks.jpg" />
+    <Content Include="Images\ErrorPageBackGround.jpg" />
+    <Content Include="Images\Home\couple-backpacker.jpg" />
+    <Content Include="Images\Home\Drinks-Around-The-World.jpg" />
+    <Content Include="Images\Home\intrepid-nomads-blog-home.jpg" />
+    <Content Include="Images\Social\64x64\behance.png" />
+    <Content Include="Images\Social\64x64\digg.png" />
+    <Content Include="Images\Social\64x64\dribbble.png" />
+    <Content Include="Images\Social\64x64\dropbox.png" />
+    <Content Include="Images\Social\64x64\facebook.png" />
+    <Content Include="Images\Social\64x64\last-fm.png" />
+    <Content Include="Images\Social\64x64\rss.png" />
+    <Content Include="Images\Social\64x64\twitter.png" />
+    <Content Include="Images\Social\64x64\vimeo.png" />
+    <Content Include="Images\Social\64x64\youtube.png" />
+    <Content Include="Pages\BlogList.aspx" />
+    <Content Include="Images\Home\I-Want-To-Travel-The-World.jpg" />
+    <Content Include="Images\Home\Old_World_Map.JPG" />
+    <Content Include="Images\Home\Travel-SignPost.jpg" />
+    <Content Include="Images\Home\Intrepid_Nomads_Home.jpg" />
+    <Content Include="Images\karl_ and_leanne.jpg" />
+    <Content Include="Images\Startdust.png" />
+    <Content Include="Images\StartdustWhite.png" />
+    <Content Include="Images\IntrepidNomads.png" />
+    <Content Include="Images\Uploads\Medium\base_camp_luggage.jpg" />
+    <Content Include="Images\Uploads\Medium\Day-1-Everest-Base-Camp-.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-10-Gorakshep-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-11-EBC%282%29-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-11-EBC%283%29Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-11-EBC-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-12-Kalapatthar%282%29-Everest-Base-Camp.jpg" />
+    <Content Include="Images\Uploads\Medium\Day-12-Kalapatthar-%283%29-Everest-Base-Camp.jpg" />
+    <Content Include="Images\Uploads\Medium\Day-12-Kalapatthar-%284%29-Everest-Base-Camp.jpg" />
+    <Content Include="Images\Uploads\Medium\Day-12-Kalapatthar-Everest-Base-Camp.jpg" />
+    <Content Include="Images\Uploads\Medium\Day-13--Everest-Base-Camp-Phungitenga.jpg" />
+    <Content Include="Images\Uploads\Medium\Day-14-Chumoa-Everest-Base-Camp.jpg" />
+    <Content Include="Images\Uploads\Medium\Day-15-Everest-Base-Camp-Kathmandu.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-15-Everest-Treking-Base-Camp-Nepal-Rock.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-2-Everest-Base-Camp-Kathmandu.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-3%282%29-Everest-Base-Camp-Lukla.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-3%283%29-Everest-Base-Camp-Lukla.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-3-Lukla-Airport-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-4%282%29-Evesrest-Base-Camp-Namche-Bazaar.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-4-Everest-Base-Camp-Namche-Bazaar.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-5%282%29-Everest-Base-Camp-Namche-Bazaar.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-5%283%29--Everest-Base-Camp-Namche-Bazaar.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-5-Evesrest-Base-Camp-Namche-Bazaar.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-5-Evesrest-Base-Camp-Namche-Bazaar.JPG.jpg" />
+    <Content Include="Images\Uploads\Medium\Day-6%282%29-Everest-Base-Camp-Thyangboche.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-6--Everest-Base-Camp-Thyangboche.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-7-Dingboche%282%29-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-7-Dingboche-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-8-Dingboche%282%29-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-8-Dingboche-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-9%282%29-Everest-Base-Camp-Loboche.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-9%283%29-Everest-Base-Camp-Loboche.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-9%284%29-Everest-Base-Camp-Loboche-.JPG" />
+    <Content Include="Images\Uploads\Medium\Day-9-Everest-Base-Camp-Loboche.JPG" />
+    <Content Include="Images\Uploads\Medium\Dead-Sea-Instructions-Sign-Jordan.JPG" />
+    <Content Include="Images\Uploads\Medium\Dead-Sea-Mud-Beach-Jordan.JPG" />
+    <Content Include="Images\Uploads\Medium\Dead-Sea-Mud-Jordan.JPG" />
+    <Content Include="Images\Uploads\Medium\drinking_whiskey_taster.jpg" />
+    <Content Include="Images\Uploads\Medium\Floating-Dead-Sea-1.JPG" />
+    <Content Include="Images\Uploads\Medium\Floating-Dead-Sea-2.JPG" />
+    <Content Include="Images\Uploads\Medium\hiking-boots-toubkal.jpg" />
+    <Content Include="Images\Uploads\Medium\Jordan-On-The-Way-To-Petra.JPG" />
+    <Content Include="Images\Uploads\Medium\Leanne-Reveley-In-Jordan.JPG" />
+    <Content Include="Images\Uploads\Medium\naples_castle.jpg" />
+    <Content Include="Images\Uploads\Medium\naples_mountain.jpg" />
+    <Content Include="Images\Uploads\Medium\Naples_Museum_Living_vs_Statue.jpg" />
+    <Content Include="Images\Uploads\Medium\Naples_Museum_Phalice.jpg" />
+    <Content Include="Images\Uploads\Medium\naples_vesuvius.jpg" />
+    <Content Include="Images\Uploads\Medium\naple_street_graffiti.jpg" />
+    <Content Include="Images\Uploads\Medium\Petra-Big-Entrance-Jordan.JPG" />
+    <Content Include="Images\Uploads\Medium\Petra-Donkey-Jordan-Desert.JPG" />
+    <Content Include="Images\Uploads\Medium\Petra-Evil-Stairway.JPG" />
+    <Content Include="Images\Uploads\Medium\Petra-High-Cave-Climbing.JPG" />
+    <Content Include="Images\Uploads\Medium\Petra-Hotel-View.JPG" />
+    <Content Include="Images\Uploads\Medium\Petra-Inside-City.JPG" />
+    <Content Include="Images\Uploads\Medium\Petra-Jordan-Couple.JPG" />
+    <Content Include="Images\Uploads\Medium\Petra-jordan-group.JPG" />
+    <Content Include="Images\Uploads\Medium\Petra-Jordan-Temple-shops.JPG" />
+    <Content Include="Images\Uploads\Medium\Petra-Jordan-Temples.JPG" />
+    <Content Include="Images\Uploads\Medium\Petra-Jordan.JPG" />
+    <Content Include="Images\Uploads\Medium\Petra-Night-Candle.JPG" />
+    <Content Include="Images\Uploads\Medium\Petra-Stairs-Stairway.JPG" />
+    <Content Include="Images\Uploads\Medium\Rome-colosseum-selfie-summer.JPG" />
+    <Content Include="Images\Uploads\Medium\scotch.jpg" />
+    <Content Include="Images\Uploads\Medium\Seven-Pillars-Of-Wisdom-Jordan-Scenic.JPG" />
+    <Content Include="Images\Uploads\Medium\Seven-Pillars-Of-Wisdom-Landscape-Jordan-Desert.JPG" />
+    <Content Include="Images\Uploads\Medium\toubkal-book.jpg" />
+    <Content Include="Images\Uploads\Medium\Toubkal-Trekking-Poles.jpg" />
+    <Content Include="Images\Uploads\Medium\toubkal-wet-wipes.jpg" />
+    <Content Include="Images\Uploads\Medium\toubkal_allergy_tablet.jpg" />
+    <Content Include="Images\Uploads\Medium\toubkal_fleece-jacket.jpg" />
+    <Content Include="Images\Uploads\Medium\toubkal_gloves.jpg" />
+    <Content Include="Images\Uploads\Medium\toubkal_hiking_jacket.jpg" />
+    <Content Include="Images\Uploads\Medium\toubkal_imodium_.jpg" />
+    <Content Include="Images\Uploads\Medium\toubkal_snacks.jpg" />
+    <Content Include="Images\Uploads\Medium\toubkal_sun_cream.jpg" />
+    <Content Include="Images\Uploads\Medium\toubkal_torch.jpg" />
+    <Content Include="Images\Uploads\Medium\toubkal_vaseline.jpg" />
+    <Content Include="Images\Uploads\Medium\toubkal_zip_trousers.jpg" />
+    <Content Include="Images\Uploads\Medium\Wadi-Rum-Camels-Jordan-Desert.JPG" />
+    <Content Include="Images\Uploads\Medium\Wadi-Rum-Climbing-Jordan.JPG" />
+    <Content Include="Images\Uploads\Medium\Wadi-Rum-Driving-Jordan-Desert.JPG" />
+    <Content Include="Images\Uploads\Medium\Wadi-Rum-jeep-Jordan.JPG" />
+    <Content Include="Images\Uploads\Medium\Wadi-Rum-Walking-Sunset.JPG" />
+    <Content Include="Images\Uploads\Medium\Wadi-Rum-Walking.JPG" />
+    <Content Include="Images\Uploads\Original\base_camp_luggage.jpg" />
+    <Content Include="Images\Uploads\Original\Day-1-Everest-Base-Camp-.JPG" />
+    <Content Include="Images\Uploads\Original\Day-10-Gorakshep-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Original\Day-11-EBC%282%29-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Original\Day-11-EBC%283%29Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Original\Day-11-EBC-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Original\Day-12-Kalapatthar%282%29-Everest-Base-Camp.jpg" />
+    <Content Include="Images\Uploads\Original\Day-12-Kalapatthar-%283%29-Everest-Base-Camp.jpg" />
+    <Content Include="Images\Uploads\Original\Day-12-Kalapatthar-%284%29-Everest-Base-Camp.jpg" />
+    <Content Include="Images\Uploads\Original\Day-12-Kalapatthar-Everest-Base-Camp.jpg" />
+    <Content Include="Images\Uploads\Original\Day-13--Everest-Base-Camp-Phungitenga.jpg" />
+    <Content Include="Images\Uploads\Original\Day-14-Chumoa-Everest-Base-Camp.jpg" />
+    <Content Include="Images\Uploads\Original\Day-15-Everest-Base-Camp-Kathmandu.JPG" />
+    <Content Include="Images\Uploads\Original\Day-15-Everest-Treking-Base-Camp-Nepal-Rock.JPG" />
+    <Content Include="Images\Uploads\Original\Day-2-Everest-Base-Camp-Kathmandu.JPG" />
+    <Content Include="Images\Uploads\Original\Day-3%282%29-Everest-Base-Camp-Lukla.JPG" />
+    <Content Include="Images\Uploads\Original\Day-3%283%29-Everest-Base-Camp-Lukla.JPG" />
+    <Content Include="Images\Uploads\Original\Day-3-Lukla-Airport-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Original\Day-4%282%29-Evesrest-Base-Camp-Namche-Bazaar.JPG" />
+    <Content Include="Images\Uploads\Original\Day-4-Everest-Base-Camp-Namche-Bazaar.JPG" />
+    <Content Include="Images\Uploads\Original\Day-5%282%29-Everest-Base-Camp-Namche-Bazaar.JPG" />
+    <Content Include="Images\Uploads\Original\Day-5%283%29--Everest-Base-Camp-Namche-Bazaar.JPG" />
+    <Content Include="Images\Uploads\Original\Day-5-Evesrest-Base-Camp-Namche-Bazaar.JPG" />
+    <Content Include="Images\Uploads\Original\Day-5-Evesrest-Base-Camp-Namche-Bazaar.JPG.jpg" />
+    <Content Include="Images\Uploads\Original\Day-6%282%29-Everest-Base-Camp-Thyangboche.JPG" />
+    <Content Include="Images\Uploads\Original\Day-6--Everest-Base-Camp-Thyangboche.JPG" />
+    <Content Include="Images\Uploads\Original\Day-7-Dingboche%282%29-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Original\Day-7-Dingboche-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Original\Day-8-Dingboche%282%29-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Original\Day-8-Dingboche-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Original\Day-9%282%29-Everest-Base-Camp-Loboche.JPG" />
+    <Content Include="Images\Uploads\Original\Day-9%283%29-Everest-Base-Camp-Loboche.JPG" />
+    <Content Include="Images\Uploads\Original\Day-9%284%29-Everest-Base-Camp-Loboche-.JPG" />
+    <Content Include="Images\Uploads\Original\Day-9-Everest-Base-Camp-Loboche.JPG" />
+    <Content Include="Images\Uploads\Original\Dead-Sea-Instructions-Sign-Jordan.JPG" />
+    <Content Include="Images\Uploads\Original\Dead-Sea-Mud-Beach-Jordan.JPG" />
+    <Content Include="Images\Uploads\Original\Dead-Sea-Mud-Jordan.JPG" />
+    <Content Include="Images\Uploads\Original\drinking_whiskey_taster.jpg" />
+    <Content Include="Images\Uploads\Original\Floating-Dead-Sea-1.JPG" />
+    <Content Include="Images\Uploads\Original\Floating-Dead-Sea-2.JPG" />
+    <Content Include="Images\Uploads\Original\hiking-boots-toubkal.jpg" />
+    <Content Include="Images\Uploads\Original\Jordan-On-The-Way-To-Petra.JPG" />
+    <Content Include="Images\Uploads\Original\Leanne-Reveley-In-Jordan.JPG" />
+    <Content Include="Images\Uploads\Original\naples_castle.jpg" />
+    <Content Include="Images\Uploads\Original\naples_mountain.jpg" />
+    <Content Include="Images\Uploads\Original\Naples_Museum_Living_vs_Statue.jpg" />
+    <Content Include="Images\Uploads\Original\Naples_Museum_Phalice.jpg" />
+    <Content Include="Images\Uploads\Original\naples_vesuvius.jpg" />
+    <Content Include="Images\Uploads\Original\naple_street_graffiti.jpg" />
+    <Content Include="Images\Uploads\Original\Petra-Big-Entrance-Jordan.JPG" />
+    <Content Include="Images\Uploads\Original\Petra-Donkey-Jordan-Desert.JPG" />
+    <Content Include="Images\Uploads\Original\Petra-Evil-Stairway.JPG" />
+    <Content Include="Images\Uploads\Original\Petra-High-Cave-Climbing.JPG" />
+    <Content Include="Images\Uploads\Original\Petra-Hotel-View.JPG" />
+    <Content Include="Images\Uploads\Original\Petra-Inside-City.JPG" />
+    <Content Include="Images\Uploads\Original\Petra-Jordan-Couple.JPG" />
+    <Content Include="Images\Uploads\Original\Petra-jordan-group.JPG" />
+    <Content Include="Images\Uploads\Original\Petra-Jordan-Temple-shops.JPG" />
+    <Content Include="Images\Uploads\Original\Petra-Jordan-Temples.JPG" />
+    <Content Include="Images\Uploads\Original\Petra-Jordan.JPG" />
+    <Content Include="Images\Uploads\Original\Petra-Night-Candle.JPG" />
+    <Content Include="Images\Uploads\Original\Petra-Stairs-Stairway.JPG" />
+    <Content Include="Images\Uploads\Original\Rome-colosseum-selfie-summer.JPG" />
+    <Content Include="Images\Uploads\Original\scotch.jpg" />
+    <Content Include="Images\Uploads\Original\Seven-Pillars-Of-Wisdom-Jordan-Scenic.JPG" />
+    <Content Include="Images\Uploads\Original\Seven-Pillars-Of-Wisdom-Landscape-Jordan-Desert.JPG" />
+    <Content Include="Images\Uploads\Original\toubkal-book.jpg" />
+    <Content Include="Images\Uploads\Original\Toubkal-Trekking-Poles.jpg" />
+    <Content Include="Images\Uploads\Original\toubkal-wet-wipes.jpg" />
+    <Content Include="Images\Uploads\Original\toubkal_allergy_tablet.jpg" />
+    <Content Include="Images\Uploads\Original\toubkal_fleece-jacket.jpg" />
+    <Content Include="Images\Uploads\Original\toubkal_gloves.jpg" />
+    <Content Include="Images\Uploads\Original\toubkal_hiking_jacket.jpg" />
+    <Content Include="Images\Uploads\Original\toubkal_imodium_.jpg" />
+    <Content Include="Images\Uploads\Original\toubkal_snacks.jpg" />
+    <Content Include="Images\Uploads\Original\toubkal_sun_cream.jpg" />
+    <Content Include="Images\Uploads\Original\toubkal_torch.jpg" />
+    <Content Include="Images\Uploads\Original\toubkal_vaseline.jpg" />
+    <Content Include="Images\Uploads\Original\toubkal_zip_trousers.jpg" />
+    <Content Include="Images\Uploads\Original\Wadi-Rum-Camels-Jordan-Desert.JPG" />
+    <Content Include="Images\Uploads\Original\Wadi-Rum-Climbing-Jordan.JPG" />
+    <Content Include="Images\Uploads\Original\Wadi-Rum-Driving-Jordan-Desert.JPG" />
+    <Content Include="Images\Uploads\Original\Wadi-Rum-jeep-Jordan.JPG" />
+    <Content Include="Images\Uploads\Original\Wadi-Rum-Walking-Sunset.JPG" />
+    <Content Include="Images\Uploads\Original\Wadi-Rum-Walking.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\base_camp_luggage.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\Day-1-Everest-Base-Camp-.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-10-Gorakshep-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-11-EBC%282%29-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-11-EBC%283%29Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-11-EBC-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-12-Kalapatthar%282%29-Everest-Base-Camp.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\Day-12-Kalapatthar-%283%29-Everest-Base-Camp.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\Day-12-Kalapatthar-%284%29-Everest-Base-Camp.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\Day-12-Kalapatthar-Everest-Base-Camp.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\Day-13--Everest-Base-Camp-Phungitenga.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\Day-14-Chumoa-Everest-Base-Camp.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\Day-15-Everest-Base-Camp-Kathmandu.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-15-Everest-Treking-Base-Camp-Nepal-Rock.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-2-Everest-Base-Camp-Kathmandu.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-3%282%29-Everest-Base-Camp-Lukla.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-3%283%29-Everest-Base-Camp-Lukla.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-3-Lukla-Airport-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-4%282%29-Evesrest-Base-Camp-Namche-Bazaar.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-4-Everest-Base-Camp-Namche-Bazaar.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-5%282%29-Everest-Base-Camp-Namche-Bazaar.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-5%283%29--Everest-Base-Camp-Namche-Bazaar.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-5-Evesrest-Base-Camp-Namche-Bazaar.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-5-Evesrest-Base-Camp-Namche-Bazaar.JPG.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\Day-6%282%29-Everest-Base-Camp-Thyangboche.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-6--Everest-Base-Camp-Thyangboche.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-7-Dingboche%282%29-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-7-Dingboche-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-8-Dingboche%282%29-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-8-Dingboche-Everest-Base-Camp.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-9%282%29-Everest-Base-Camp-Loboche.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-9%283%29-Everest-Base-Camp-Loboche.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-9%284%29-Everest-Base-Camp-Loboche-.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Day-9-Everest-Base-Camp-Loboche.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Dead-Sea-Instructions-Sign-Jordan.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Dead-Sea-Mud-Beach-Jordan.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Dead-Sea-Mud-Jordan.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\drinking_whiskey_taster.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\Floating-Dead-Sea-1.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Floating-Dead-Sea-2.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\hiking-boots-toubkal.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\Jordan-On-The-Way-To-Petra.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Leanne-Reveley-In-Jordan.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\naples_castle.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\naples_mountain.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\Naples_Museum_Living_vs_Statue.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\Naples_Museum_Phalice.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\naples_vesuvius.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\naple_street_graffiti.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\Petra-Big-Entrance-Jordan.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Petra-Donkey-Jordan-Desert.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Petra-Evil-Stairway.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Petra-High-Cave-Climbing.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Petra-Hotel-View.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Petra-Inside-City.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Petra-Jordan-Couple.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Petra-jordan-group.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Petra-Jordan-Temple-shops.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Petra-Jordan-Temples.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Petra-Jordan.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Petra-Night-Candle.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Petra-Stairs-Stairway.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Rome-colosseum-selfie-summer.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\scotch.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\Seven-Pillars-Of-Wisdom-Jordan-Scenic.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Seven-Pillars-Of-Wisdom-Landscape-Jordan-Desert.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\toubkal-book.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\Toubkal-Trekking-Poles.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\toubkal-wet-wipes.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\toubkal_allergy_tablet.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\toubkal_fleece-jacket.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\toubkal_gloves.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\toubkal_hiking_jacket.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\toubkal_imodium_.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\toubkal_snacks.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\toubkal_sun_cream.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\toubkal_torch.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\toubkal_vaseline.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\toubkal_zip_trousers.jpg" />
+    <Content Include="Images\Uploads\Thumbnail\Wadi-Rum-Camels-Jordan-Desert.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Wadi-Rum-Climbing-Jordan.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Wadi-Rum-Driving-Jordan-Desert.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Wadi-Rum-jeep-Jordan.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Wadi-Rum-Walking-Sunset.JPG" />
+    <Content Include="Images\Uploads\Thumbnail\Wadi-Rum-Walking.JPG" />
+    <Content Include="Pages\About.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\Manage.aspx" />
+    <Content Include="Account\OpenAuthProviders.ascx" />
+    <Content Include="Account\Register.aspx" />
+    <Content Include="Account\RegisterExternalLogin.aspx" />
+    <Content Include="Pages\Blog.aspx" />
+    <Content Include="Content\blog.css" />
+    <Content Include="Content\bootstrap-theme.css" />
+    <Content Include="Content\bootstrap-theme.min.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\jquery-ui.css" />
+    <Content Include="Content\themes\base\jquery.ui.accordion.css" />
+    <Content Include="Content\themes\base\jquery.ui.all.css" />
+    <Content Include="Content\themes\base\jquery.ui.autocomplete.css" />
+    <Content Include="Content\themes\base\jquery.ui.base.css" />
+    <Content Include="Content\themes\base\jquery.ui.button.css" />
+    <Content Include="Content\themes\base\jquery.ui.core.css" />
+    <Content Include="Content\themes\base\jquery.ui.datepicker.css" />
+    <Content Include="Content\themes\base\jquery.ui.dialog.css" />
+    <Content Include="Content\themes\base\jquery.ui.progressbar.css" />
+    <Content Include="Content\themes\base\jquery.ui.resizable.css" />
+    <Content Include="Content\themes\base\jquery.ui.selectable.css" />
+    <Content Include="Content\themes\base\jquery.ui.slider.css" />
+    <Content Include="Content\themes\base\jquery.ui.tabs.css" />
+    <Content Include="Content\themes\base\jquery.ui.theme.css" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_0_aaaaaa_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_flat_75_ffffff_40x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_55_fbf9ee_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_65_ffffff_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_dadada_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_75_e6e6e6_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_glass_95_fef1ec_1x400.png" />
+    <Content Include="Content\themes\base\minified\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_222222_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_2e83ff_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_454545_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_888888_256x240.png" />
+    <Content Include="Content\themes\base\minified\images\ui-icons_cd0a0a_256x240.png" />
+    <Content Include="Content\themes\base\minified\jquery-ui.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.accordion.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.autocomplete.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.button.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.core.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.datepicker.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.dialog.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.progressbar.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.resizable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.selectable.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
+    <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="Scripts\angular-mocks.js" />
+    <Content Include="Scripts\angular-resource.js" />
+    <Content Include="Scripts\angular-resource.min.js" />
+    <Content Include="Scripts\angular.js" />
+    <Content Include="Scripts\angular.min.js" />
+    <Content Include="ServiceAPI\packages.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="Content\bootstrap-theme.css.map" />
+    <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Pages\Category.aspx" />
+    <Content Include="Pages\Contact.aspx" />
+    <Content Include="Pages\Countries.aspx" />
+    <Content Include="Pages\Diaries.aspx" />
+    <Content Include="Pages\Drinks.aspx" />
+    <Content Include="Pages\Error\404.aspx" />
+    <Content Include="Pages\Home.aspx" />
+    <Content Include="Pages\Journey.aspx" />
+    <Content Include="Pages\Locations.aspx" />
+    <Content Include="Pages\Page.Master" />
+    <Content Include="Admin\admin.master" />
+    <Content Include="Content\tinymce\langs\readme.md" />
+    <Content Include="Content\tinymce\skins\lightgray\fonts\readme.md" />
+    <Content Include="Content\tinymce\skins\lightgray\fonts\tinymce-small.eot" />
+    <Content Include="Content\tinymce\skins\lightgray\fonts\tinymce-small.ttf" />
+    <Content Include="Content\tinymce\skins\lightgray\fonts\tinymce-small.woff" />
+    <Content Include="Content\tinymce\skins\lightgray\fonts\tinymce.eot" />
+    <Content Include="Content\tinymce\skins\lightgray\fonts\tinymce.ttf" />
+    <Content Include="Content\tinymce\skins\lightgray\fonts\tinymce.woff" />
+    <Content Include="Content\fancybox\.gitattributes" />
+    <Content Include="Content\fancybox\CHANGELOG.md" />
+    <Content Include="Content\fancybox\README.md" />
+    <Content Include="Content\fancybox\sprite.psd" />
+    <Content Include="AjaxControlToolkit.config" />
+    <Content Include="Bundle.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Admin\Web.config" />
+    <Content Include="Content\tinymce\js\tinymce\langs\readme.md" />
+    <Content Include="Content\tinymce\js\tinymce\skins\lightgray\fonts\readme.md" />
+    <Content Include="Content\tinymce\js\tinymce\skins\lightgray\fonts\tinymce-small.eot" />
+    <Content Include="Content\tinymce\js\tinymce\skins\lightgray\fonts\tinymce-small.ttf" />
+    <Content Include="Content\tinymce\js\tinymce\skins\lightgray\fonts\tinymce-small.woff" />
+    <Content Include="Content\tinymce\js\tinymce\skins\lightgray\fonts\tinymce.eot" />
+    <Content Include="Content\tinymce\js\tinymce\skins\lightgray\fonts\tinymce.ttf" />
+    <Content Include="Content\tinymce\js\tinymce\skins\lightgray\fonts\tinymce.woff" />
+    <Content Include="Content\slick\fonts\slick.eot" />
+    <Content Include="Content\slick\fonts\slick.ttf" />
+    <Content Include="Content\slick\fonts\slick.woff" />
+    <None Include="My Project\PublishProfiles\intrepidnomads.com - Web Deploy.pubxml" />
+    <None Include="My Project\PublishProfiles\travelwac.com - Web Deploy.pubxml" />
+    <Content Include="Pages\PayPal.htm" />
+    <Content Include="Pages\SharedCode\FollowUs.ascx" />
+    <Content Include="rss.ashx" />
+    <Content Include="Scripts\angular.min.js.map" />
+    <Content Include="packages.config" />
+    <Content Include="Scripts\angular-resource.min.js.map" />
+    <None Include="Scripts\jquery-1.9.1.intellisense.js" />
+    <Content Include="Pages\SharedCode\CarouselItem.ascx" />
+    <Content Include="Pages\SharedCode\CategoryList.ascx" />
+    <Content Include="Pages\SharedCode\CommentCounter.ascx" />
+    <Content Include="Pages\SharedCode\DestinationsList.ascx" />
+    <Content Include="Pages\SharedCode\DrinksItem.ascx" />
+    <Content Include="Pages\SharedCode\header.ascx" />
+    <Content Include="Pages\SharedCode\MailChimp.aspx" />
+    <Content Include="Pages\SharedCode\Pager.ascx" />
+    <Content Include="Pages\SideBar.ascx" />
+    <Content Include="Resources\Visualization.dll" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <Content Include="Scripts\geolocations.js" />
+    <Content Include="Scripts\googlegraphs.js" />
+    <Content Include="Scripts\home.js" />
+    <Content Include="Scripts\jquery-1.9.1.js" />
+    <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.js" />
+    <Content Include="Scripts\jquery-ui-1.8.24.min.js" />
+    <Content Include="Scripts\jquery.dotdotdot.min.js" />
+    <Content Include="Scripts\main.js" />
+    <Content Include="Scripts\paralax.js" />
+    <Content Include="Scripts\_references.js" />
+    <Content Include="favicon.ico" />
+    <Content Include="Global.asax" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Admin\admin.aspx.designer.vb">
+      <DependentUpon>admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin.aspx.vb">
+      <DependentUpon>admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\admin.master.designer.vb">
+      <DependentUpon>admin.master</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin.master.vb">
+      <DependentUpon>admin.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_home.aspx.designer.vb">
+      <DependentUpon>admin_home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_home.aspx.vb">
+      <DependentUpon>admin_home.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_locations.aspx.designer.vb">
+      <DependentUpon>admin_locations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_locations.aspx.vb">
+      <DependentUpon>admin_locations.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shared\admin_addnewbuttons.ascx.designer.vb">
+      <DependentUpon>admin_addnewbuttons.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Shared\admin_addnewbuttons.ascx.vb">
+      <DependentUpon>admin_addnewbuttons.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_blog.aspx.designer.vb">
+      <DependentUpon>admin_blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_blog.aspx.vb">
+      <DependentUpon>admin_blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_categories.aspx.designer.vb">
+      <DependentUpon>admin_categories.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_categories.aspx.vb">
+      <DependentUpon>admin_categories.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\admin_countries.aspx.designer.vb">
+      <DependentUpon>admin_countries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\admin_countries.aspx.vb">
+      <DependentUpon>admin_countries.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Shared\Enums.vb" />
+    <Compile Include="Admin\Uploads\imageupload.aspx.designer.vb">
+      <DependentUpon>imageupload.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\Uploads\imageupload.aspx.vb">
+      <DependentUpon>imageupload.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="App_Start\AttributeRoutingHttpConfig.vb" />
+    <Compile Include="App_Start\AuthConfig.vb" />
+    <Compile Include="App_Start\BundleConfig.vb" />
+    <Compile Include="App_Start\RouteConfig.vb" />
+    <Compile Include="App_Start\WebAPIConfig.vb" />
+    <Compile Include="Pages\BlogList.aspx.designer.vb">
+      <DependentUpon>BlogList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\BlogList.aspx.vb">
+      <DependentUpon>BlogList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\About.aspx.designer.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\About.aspx.vb">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Manage.aspx.vb">
+      <DependentUpon>Manage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Manage.aspx.designer.vb">
+      <DependentUpon>Manage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\OpenAuthProviders.ascx.vb">
+      <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\OpenAuthProviders.ascx.designer.vb">
+      <DependentUpon>OpenAuthProviders.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Register.aspx.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Register.aspx.designer.vb">
+      <DependentUpon>Register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\RegisterExternalLogin.aspx.vb">
+      <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\RegisterExternalLogin.aspx.designer.vb">
+      <DependentUpon>RegisterExternalLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Blog.aspx.designer.vb">
+      <DependentUpon>Blog.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Blog.aspx.vb">
+      <DependentUpon>Blog.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Category.aspx.designer.vb">
+      <DependentUpon>Category.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Category.aspx.vb">
+      <DependentUpon>Category.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Countries.aspx.designer.vb">
+      <DependentUpon>Countries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Countries.aspx.vb">
+      <DependentUpon>Countries.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Diaries.aspx.designer.vb">
+      <DependentUpon>Diaries.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Diaries.aspx.vb">
+      <DependentUpon>Diaries.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Drinks.aspx.designer.vb">
+      <DependentUpon>Drinks.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Drinks.aspx.vb">
+      <DependentUpon>Drinks.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Error\404.aspx.designer.vb">
+      <DependentUpon>404.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Error\404.aspx.vb">
+      <DependentUpon>404.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Home.aspx.designer.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Home.aspx.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Journey.aspx.designer.vb">
+      <DependentUpon>Journey.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Journey.aspx.vb">
+      <DependentUpon>Journey.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Locations.aspx.designer.vb">
+      <DependentUpon>Locations.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Locations.aspx.vb">
+      <DependentUpon>Locations.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SharedCode\CarouselItem.ascx.designer.vb">
+      <DependentUpon>CarouselItem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SharedCode\CarouselItem.ascx.vb">
+      <DependentUpon>CarouselItem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SharedCode\CategoryList.ascx.designer.vb">
+      <DependentUpon>CategoryList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SharedCode\CategoryList.ascx.vb">
+      <DependentUpon>CategoryList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SharedCode\CommentCounter.ascx.designer.vb">
+      <DependentUpon>CommentCounter.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SharedCode\CommentCounter.ascx.vb">
+      <DependentUpon>CommentCounter.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SharedCode\DestinationsList.ascx.designer.vb">
+      <DependentUpon>DestinationsList.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SharedCode\DestinationsList.ascx.vb">
+      <DependentUpon>DestinationsList.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SharedCode\DrinksItem.ascx.designer.vb">
+      <DependentUpon>DrinksItem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SharedCode\DrinksItem.ascx.vb">
+      <DependentUpon>DrinksItem.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SharedCode\FollowUs.ascx.designer.vb">
+      <DependentUpon>FollowUs.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SharedCode\FollowUs.ascx.vb">
+      <DependentUpon>FollowUs.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SharedCode\header.ascx.designer.vb">
+      <DependentUpon>header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SharedCode\header.ascx.vb">
+      <DependentUpon>header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SharedCode\HTMLParser.vb" />
+    <Compile Include="Pages\SharedCode\MailChimp.aspx.designer.vb">
+      <DependentUpon>MailChimp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SharedCode\MailChimp.aspx.vb">
+      <DependentUpon>MailChimp.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SharedCode\Menu.vb" />
+    <Compile Include="Pages\Contact.aspx.designer.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Contact.aspx.vb">
+      <DependentUpon>Contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Page.Master.designer.vb">
+      <DependentUpon>Page.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\Page.Master.vb">
+      <DependentUpon>Page.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Pages\SharedCode\Pager.ascx.designer.vb">
+      <DependentUpon>Pager.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SharedCode\Pager.ascx.vb">
+      <DependentUpon>Pager.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SharedCode\URLCreator.vb" />
+    <Compile Include="Pages\SideBar.ascx.designer.vb">
+      <DependentUpon>SideBar.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SideBar.ascx.vb">
+      <DependentUpon>SideBar.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="rss.ashx.vb">
+      <DependentUpon>rss.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="ServiceAPI\BlogController.vb" />
+    <Compile Include="ServiceAPI\LocationController.vb" />
+    <Compile Include="ServiceAPI\ViewModels\BlogModel.vb" />
+    <Compile Include="Site.Master.designer.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Site.Master.vb">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\Web.config" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <Content Include="Site.Master" />
+    <Content Include="Scripts\jquery-1.9.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Travel.Business\Travel.Business.vbproj">
+      <Project>{0a965f7d-4a3e-4f4d-bed2-24966b2e3f06}</Project>
+      <Name>Travel.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Travel.Common\Travel.Common.vbproj">
+      <Project>{51f3f7dd-0781-40d0-aa41-e21a4e7de5eb}</Project>
+      <Name>Travel.Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Travel.DALEntity\Travel.DAL.vbproj">
+      <Project>{b2627f51-a590-4f67-86b3-42ad22c10086}</Project>
+      <Name>Travel.DAL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <SaveServerSettingsInUserFile>True</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Import Project="..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets" Condition="Exists('..\packages\AutoMapper.3.3.1\tools\AutoMapper.targets')" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

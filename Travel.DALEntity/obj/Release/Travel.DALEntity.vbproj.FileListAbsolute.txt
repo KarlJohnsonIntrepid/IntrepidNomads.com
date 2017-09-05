@@ -1,0 +1,12 @@
+C:\Users\Leanne\Documents\Visual Studio 2012\Projects\Travel\Travel.DALEntity\bin\Release\Travel.DALEntity.dll.config
+C:\Users\Leanne\Documents\Visual Studio 2012\Projects\Travel\Travel.DALEntity\bin\Release\Travel.DALEntity.dll
+C:\Users\Leanne\Documents\Visual Studio 2012\Projects\Travel\Travel.DALEntity\bin\Release\Travel.DALEntity.pdb
+C:\Users\Leanne\Documents\Visual Studio 2012\Projects\Travel\Travel.DALEntity\bin\Release\Travel.DALEntity.xml
+C:\Users\Leanne\Documents\Visual Studio 2012\Projects\Travel\Travel.DALEntity\bin\Release\EntityFramework.dll
+C:\Users\Leanne\Documents\Visual Studio 2012\Projects\Travel\Travel.DALEntity\bin\Release\EntityFramework.xml
+C:\Users\Leanne\Documents\Visual Studio 2012\Projects\Travel\Travel.DALEntity\obj\Release\Travel.DALEntity.Resources.resources
+C:\Users\Leanne\Documents\Visual Studio 2012\Projects\Travel\Travel.DALEntity\obj\Release\Travel.DALEntity.vbproj.GenerateResource.Cache
+C:\Users\Leanne\Documents\Visual Studio 2012\Projects\Travel\Travel.DALEntity\obj\Release\Travel.DALEntity.dll
+C:\Users\Leanne\Documents\Visual Studio 2012\Projects\Travel\Travel.DALEntity\obj\Release\Travel.DALEntity.xml
+C:\Users\Leanne\Documents\Visual Studio 2012\Projects\Travel\Travel.DALEntity\obj\Release\Travel.DALEntity.pdb
+C:\Users\Leanne\Documents\Visual Studio 2012\Projects\Travel\Travel.DALEntity\obj\Release\Travel.DALEntity.vbprojResolveAssemblyReference.cache

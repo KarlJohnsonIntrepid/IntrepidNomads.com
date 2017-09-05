@@ -1,0 +1,36 @@
+C:\Users\kjohnson\documents\visual studio 2012\Projects\Travel\Travel.DAL\bin\Debug\Travel.DAL.dll
+C:\Users\kjohnson\documents\visual studio 2012\Projects\Travel\Travel.DAL\bin\Debug\Travel.DAL.pdb
+C:\Users\kjohnson\documents\visual studio 2012\Projects\Travel\Travel.DAL\bin\Debug\Travel.DAL.xml
+C:\Users\kjohnson\documents\visual studio 2012\Projects\Travel\Travel.DAL\bin\Debug\Travel.Common.dll
+C:\Users\kjohnson\documents\visual studio 2012\Projects\Travel\Travel.DAL\bin\Debug\Travel.Common.pdb
+C:\Users\kjohnson\documents\visual studio 2012\Projects\Travel\Travel.DAL\bin\Debug\Travel.Common.xml
+C:\Users\kjohnson\documents\visual studio 2012\Projects\Travel\Travel.DAL\obj\Debug\Travel.DAL.vbprojResolveAssemblyReference.cache
+C:\Users\kjohnson\documents\visual studio 2012\Projects\Travel\Travel.DAL\obj\Debug\Travel.DAL.Resources.resources
+C:\Users\kjohnson\documents\visual studio 2012\Projects\Travel\Travel.DAL\obj\Debug\Travel.DAL.vbproj.GenerateResource.Cache
+C:\Users\kjohnson\documents\visual studio 2012\Projects\Travel\Travel.DAL\obj\Debug\Travel.DAL.dll
+C:\Users\kjohnson\documents\visual studio 2012\Projects\Travel\Travel.DAL\obj\Debug\Travel.DAL.xml
+C:\Users\kjohnson\documents\visual studio 2012\Projects\Travel\Travel.DAL\obj\Debug\Travel.DAL.pdb
+L:\Travel\Travel.DAL\bin\Debug\Travel.DAL.dll
+L:\Travel\Travel.DAL\bin\Debug\Travel.DAL.pdb
+L:\Travel\Travel.DAL\bin\Debug\Travel.DAL.xml
+L:\Travel\Travel.DAL\bin\Debug\Travel.Common.dll
+L:\Travel\Travel.DAL\bin\Debug\Travel.Common.pdb
+L:\Travel\Travel.DAL\bin\Debug\Travel.Common.xml
+L:\Travel\Travel.DAL\obj\Debug\Travel.DAL.vbprojResolveAssemblyReference.cache
+L:\Travel\Travel.DAL\obj\Debug\Travel.DAL.Resources.resources
+L:\Travel\Travel.DAL\obj\Debug\Travel.DAL.vbproj.GenerateResource.Cache
+L:\Travel\Travel.DAL\obj\Debug\Travel.DAL.dll
+L:\Travel\Travel.DAL\obj\Debug\Travel.DAL.xml
+L:\Travel\Travel.DAL\obj\Debug\Travel.DAL.pdb
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DAL\bin\Debug\Travel.DAL.dll
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DAL\bin\Debug\Travel.DAL.pdb
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DAL\bin\Debug\Travel.DAL.xml
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DAL\bin\Debug\Travel.Common.dll
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DAL\bin\Debug\Travel.Common.pdb
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DAL\bin\Debug\Travel.Common.xml
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DAL\obj\Debug\Travel.DAL.vbprojResolveAssemblyReference.cache
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DAL\obj\Debug\Travel.DAL.Resources.resources
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DAL\obj\Debug\Travel.DAL.vbproj.GenerateResource.Cache
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DAL\obj\Debug\Travel.DAL.dll
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DAL\obj\Debug\Travel.DAL.xml
+C:\Users\Leanne\documents\visual studio 2012\Projects\Travel\Travel.DAL\obj\Debug\Travel.DAL.pdb

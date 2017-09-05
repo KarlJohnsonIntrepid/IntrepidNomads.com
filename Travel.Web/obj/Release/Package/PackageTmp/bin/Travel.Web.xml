@@ -1,0 +1,2817 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Travel.Web
+</name>
+</assembly>
+<members>
+<member name="F:Travel.Web.admin_home.lblShow1">
+	<summary>
+lblShow1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_home.ddlSlideShow1">
+	<summary>
+ddlSlideShow1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_home.lblShow2">
+	<summary>
+lblShow2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_home.ddlSlideShow2">
+	<summary>
+ddlSlideShow2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_home.lblShow3">
+	<summary>
+lblShow3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_home.ddlSlideShow3">
+	<summary>
+ddlSlideShow3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_home.lblShow4">
+	<summary>
+lblShow4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_home.ddlSlideShow4">
+	<summary>
+ddlSlideShow4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_home.lblShow5">
+	<summary>
+lblShow5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_home.ddlSlideShow5">
+	<summary>
+ddlSlideShow5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_home.lblShow6">
+	<summary>
+lblShow6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_home.ddlSlideShow6">
+	<summary>
+ddlSlideShow6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_home.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.btnAddNewButtons">
+	<summary>
+btnAddNewButtons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.divDetails">
+	<summary>
+divDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.lblDetailsFormTitle">
+	<summary>
+lblDetailsFormTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.lblDate">
+	<summary>
+lblDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.CalExtender">
+	<summary>
+CalExtender control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.txtDate">
+	<summary>
+txtDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.reqDate">
+	<summary>
+reqDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.lblLocation">
+	<summary>
+lblLocation control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.txtLocation">
+	<summary>
+txtLocation control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.reqLocation">
+	<summary>
+reqLocation control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.lblLatitude">
+	<summary>
+lblLatitude control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.txtLatitude">
+	<summary>
+txtLatitude control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.reqLatitude">
+	<summary>
+reqLatitude control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.lblongitude">
+	<summary>
+lblongitude control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.txtLongitude">
+	<summary>
+txtLongitude control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.reqLongitude">
+	<summary>
+reqLongitude control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.divEditGrid">
+	<summary>
+divEditGrid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.lblSelectGridTitle">
+	<summary>
+lblSelectGridTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.grdLocations">
+	<summary>
+grdLocations control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_locations.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Drinks.pnlDrinks1">
+	<summary>
+pnlDrinks1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Drinks.pnlDrinks2">
+	<summary>
+pnlDrinks2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SiteMaster.plcMetaDescription">
+	<summary>
+plcMetaDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SiteMaster.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SiteMaster.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.default_1.litSearchText">
+	<summary>
+litSearchText control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.default_1.lnkViewAll">
+	<summary>
+lnkViewAll control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.default_1.plcCategorys">
+	<summary>
+plcCategorys control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.default_1.CategoryList1">
+	<summary>
+CategoryList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.default_1.liPrev">
+	<summary>
+liPrev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.default_1.lnkPagePrev">
+	<summary>
+lnkPagePrev control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.default_1.plcPager">
+	<summary>
+plcPager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.default_1.liNext">
+	<summary>
+liNext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.default_1.lnkPageNext">
+	<summary>
+lnkPageNext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.default_1.btnLoadMore">
+	<summary>
+btnLoadMore control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Contact.txtName">
+	<summary>
+txtName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Contact.reqName">
+	<summary>
+reqName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Contact.txtEmail">
+	<summary>
+txtEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Contact.reqEmail">
+	<summary>
+reqEmail control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Contact.txtSubject">
+	<summary>
+txtSubject control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Contact.reqSubject">
+	<summary>
+reqSubject control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Contact.txtMessage">
+	<summary>
+txtMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Contact.reqMessage">
+	<summary>
+reqMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Contact.btnContact">
+	<summary>
+btnContact control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Contact.lblMessageSent">
+	<summary>
+lblMessageSent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.btnAddNewButtons">
+	<summary>
+btnAddNewButtons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.grpSubmitMsg">
+	<summary>
+grpSubmitMsg control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblSubmitMessage">
+	<summary>
+lblSubmitMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lnkBlog">
+	<summary>
+lnkBlog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lnkEditBlog">
+	<summary>
+lnkEditBlog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.liImageEdit">
+	<summary>
+liImageEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lnkuploadImagesEdit">
+	<summary>
+lnkuploadImagesEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lnkuploadImagesAdd">
+	<summary>
+lnkuploadImagesAdd control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.divDetails">
+	<summary>
+divDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblDetailsFormTitle">
+	<summary>
+lblDetailsFormTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.txtTitle">
+	<summary>
+txtTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblAuthor">
+	<summary>
+lblAuthor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.ddlAuthor">
+	<summary>
+ddlAuthor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblDate">
+	<summary>
+lblDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.txtDate">
+	<summary>
+txtDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.Country">
+	<summary>
+Country control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.ddlCountrys">
+	<summary>
+ddlCountrys control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.btnCountryDetails">
+	<summary>
+btnCountryDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.ddlCategory">
+	<summary>
+ddlCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.ddlCategories">
+	<summary>
+ddlCategories control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.btnCategoryDetails">
+	<summary>
+btnCategoryDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblSeoTitle">
+	<summary>
+lblSeoTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.txtSeoTitle">
+	<summary>
+txtSeoTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.valSEOTitle">
+	<summary>
+valSEOTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblSeoDescription">
+	<summary>
+lblSeoDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.txtSeoDescription">
+	<summary>
+txtSeoDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblNiceDescription">
+	<summary>
+lblNiceDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.txtNiceDescription">
+	<summary>
+txtNiceDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.divImages">
+	<summary>
+divImages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.btnSubmitAddImages">
+	<summary>
+btnSubmitAddImages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.btnSubmitEditImages">
+	<summary>
+btnSubmitEditImages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblBlog">
+	<summary>
+lblBlog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.txtContent">
+	<summary>
+txtContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.upImagesURL">
+	<summary>
+upImagesURL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblImages">
+	<summary>
+lblImages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.ddlImages">
+	<summary>
+ddlImages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblTxtImageUrl">
+	<summary>
+lblTxtImageUrl control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.txtImageURL">
+	<summary>
+txtImageURL control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.imgAssociated">
+	<summary>
+imgAssociated control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblCategoryImage">
+	<summary>
+lblCategoryImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.ddlCategoryImages">
+	<summary>
+ddlCategoryImages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.imgCategory">
+	<summary>
+imgCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.valtxtTitle">
+	<summary>
+valtxtTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblIsVisible">
+	<summary>
+lblIsVisible control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.chkIsVisible">
+	<summary>
+chkIsVisible control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblIsFullScreen">
+	<summary>
+lblIsFullScreen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.chkIsFullScreen">
+	<summary>
+chkIsFullScreen control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblShowPhotos">
+	<summary>
+lblShowPhotos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.chkShowPhotos">
+	<summary>
+chkShowPhotos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.divEditGrid">
+	<summary>
+divEditGrid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblSelectGridTitle">
+	<summary>
+lblSelectGridTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblCategoryFilter">
+	<summary>
+lblCategoryFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.ddlCategoryFilter">
+	<summary>
+ddlCategoryFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblCountryFilter">
+	<summary>
+lblCountryFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.ddlCountryFilter">
+	<summary>
+ddlCountryFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.grdBlogs">
+	<summary>
+grdBlogs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblBlogID">
+	<summary>
+lblBlogID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_blog.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.RegisterExternalLogin.providerMessage">
+	<summary>
+providerMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.RegisterExternalLogin.userNameForm">
+	<summary>
+userNameForm control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.RegisterExternalLogin.userName">
+	<summary>
+userName control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.RegisterExternalLogin.userNameMessage">
+	<summary>
+userNameMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Error404.form1">
+	<summary>
+form1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.mnuOverview1">
+	<summary>
+mnuOverview1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.mnuBlog1">
+	<summary>
+mnuBlog1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.mnuImages1">
+	<summary>
+mnuImages1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.mnuHomePage1">
+	<summary>
+mnuHomePage1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.mnuCategorie1s">
+	<summary>
+mnuCategorie1s control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.mnuCountries1">
+	<summary>
+mnuCountries1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.mnuLocations1">
+	<summary>
+mnuLocations1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.mnuErrorLog1">
+	<summary>
+mnuErrorLog1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.mnuOverview">
+	<summary>
+mnuOverview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.mnuBlog">
+	<summary>
+mnuBlog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.mnuImages">
+	<summary>
+mnuImages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.mnuHomePage">
+	<summary>
+mnuHomePage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.mnuCategories">
+	<summary>
+mnuCategories control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.mnuCountries">
+	<summary>
+mnuCountries control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.mnuLocations">
+	<summary>
+mnuLocations control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.Li1">
+	<summary>
+Li1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.mnuWebsite">
+	<summary>
+mnuWebsite control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.lblPageTitle">
+	<summary>
+lblPageTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.CarouselItem.item">
+	<summary>
+item control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.CarouselItem.lnk">
+	<summary>
+lnk control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.CarouselItem.imgSlideShow">
+	<summary>
+imgSlideShow control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.CarouselItem.txtHeader">
+	<summary>
+txtHeader control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.CarouselItem.txtPreview">
+	<summary>
+txtPreview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.FollowUs.imgFacebook">
+	<summary>
+imgFacebook control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.FollowUs.lnkRSS">
+	<summary>
+lnkRSS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.FollowUs.imgRSS">
+	<summary>
+imgRSS control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.FollowUs.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Locations.lblLastKnownLocation">
+	<summary>
+lblLastKnownLocation control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.DestinationsList.lblContinentTitle">
+	<summary>
+lblContinentTitle  control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.DestinationsList.rptCountries">
+	<summary>
+rptCountries control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.DrinksItem.lnkDrink">
+	<summary>
+lnkDrink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.DrinksItem.imgDrink">
+	<summary>
+imgDrink control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.DrinksItem.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.DrinksItem.lblCountry">
+	<summary>
+lblCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.DrinksItem.lblNumber">
+	<summary>
+lblNumber control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.blog1.HeadContent">
+	<summary>
+HeadContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.blog1.imgLogo">
+	<summary>
+imgLogo control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.blog1.mnuCategories">
+	<summary>
+mnuCategories control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.blog1.litCategoryMenu">
+	<summary>
+litCategoryMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.blog1.divMain">
+	<summary>
+divMain control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.blog1.MainContent">
+	<summary>
+MainContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.blog1.divSideBar">
+	<summary>
+divSideBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.blog1.plcSideBar">
+	<summary>
+plcSideBar control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.blog1.Image1">
+	<summary>
+Image1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.pager.lnkPrevious">
+	<summary>
+lnkPrevious control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.pager.lnkNext">
+	<summary>
+lnkNext control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.lblTagLine">
+	<summary>
+lblTagLine control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.imgAbout">
+	<summary>
+imgAbout control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.txtSubscribe">
+	<summary>
+txtSubscribe control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.bntSubscribe">
+	<summary>
+bntSubscribe control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.FollowUs">
+	<summary>
+FollowUs control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.rptRecent">
+	<summary>
+rptRecent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.lnkBestOf">
+	<summary>
+lnkBestOf control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.lnkGrandCanyon">
+	<summary>
+lnkGrandCanyon control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.HyperLink1">
+	<summary>
+HyperLink1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.HyperLink5">
+	<summary>
+HyperLink5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.HyperLink6">
+	<summary>
+HyperLink6 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.HyperLink2">
+	<summary>
+HyperLink2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.HyperLink3">
+	<summary>
+HyperLink3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.HyperLink4">
+	<summary>
+HyperLink4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.HyperLink7">
+	<summary>
+HyperLink7 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.lnkPlan">
+	<summary>
+lnkPlan control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.lnkTopDestGuatemala">
+	<summary>
+lnkTopDestGuatemala control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.lnkMexico">
+	<summary>
+lnkMexico control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.lnkNicaragua">
+	<summary>
+lnkNicaragua control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.lnkBelize">
+	<summary>
+lnkBelize control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.lnkTopDestColombia">
+	<summary>
+lnkTopDestColombia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.lnkArgentina">
+	<summary>
+lnkArgentina control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.lnkChile">
+	<summary>
+lnkChile control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.lnkBolivia">
+	<summary>
+lnkBolivia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.FollowUs2">
+	<summary>
+FollowUs2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.divCarousel">
+	<summary>
+divCarousel control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.carouselcircles">
+	<summary>
+carouselcircles control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.CarouselItems">
+	<summary>
+CarouselItems control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.lnkViewAll">
+	<summary>
+lnkViewAll control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.lblLastKnownLocation">
+	<summary>
+lblLastKnownLocation control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.lblDays">
+	<summary>
+lblDays control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.rptRelatedPictureList1">
+	<summary>
+rptRelatedPictureList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.SideBar.rptRelatedPictureList2">
+	<summary>
+rptRelatedPictureList2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Home.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Home.img2">
+	<summary>
+img2 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Home.lnkBlog">
+	<summary>
+lnkBlog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Home.rptRelatedPictureList1">
+	<summary>
+rptRelatedPictureList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Home.img1">
+	<summary>
+img1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Home.lbtnDestinations">
+	<summary>
+lbtnDestinations control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Home.rptDestinations">
+	<summary>
+rptDestinations control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Home.img3">
+	<summary>
+img3 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Home.lbtnDiarys">
+	<summary>
+lbtnDiarys control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Home.rptDiaries">
+	<summary>
+rptDiaries control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Home.img4">
+	<summary>
+img4 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Home.btnDrinks">
+	<summary>
+btnDrinks control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Home.img5">
+	<summary>
+img5 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Home.bntAbout">
+	<summary>
+bntAbout control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.btnAddNewButtons">
+	<summary>
+btnAddNewButtons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.divDetails">
+	<summary>
+divDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.lblDetailsFormTitle">
+	<summary>
+lblDetailsFormTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.txtCountry">
+	<summary>
+txtCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.lblContinent">
+	<summary>
+lblContinent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.ddlContinent">
+	<summary>
+ddlContinent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.lblSeoTitle">
+	<summary>
+lblSeoTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.txtSeoTitle">
+	<summary>
+txtSeoTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.valSEOTitle">
+	<summary>
+valSEOTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.lblSeoDescription">
+	<summary>
+lblSeoDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.txtSeoDescription">
+	<summary>
+txtSeoDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.lblBlog">
+	<summary>
+lblBlog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.txtContent">
+	<summary>
+txtContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.upImage">
+	<summary>
+upImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.lblCountryImage">
+	<summary>
+lblCountryImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.txtCountryImage">
+	<summary>
+txtCountryImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.imgCountryImage">
+	<summary>
+imgCountryImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.btnCheckImageID">
+	<summary>
+btnCheckImageID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.valCountry">
+	<summary>
+valCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.divEditGrid">
+	<summary>
+divEditGrid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.lblSelectGridTitle">
+	<summary>
+lblSelectGridTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.grdCountries">
+	<summary>
+grdCountries control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_countries.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.CategoryList.lstCategory">
+	<summary>
+lstCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:Travel.Web.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Travel.Web.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Travel.Web.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:Travel.Web.imageupload.admin_addnewbuttons">
+	<summary>
+admin_addnewbuttons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.divUploadImages">
+	<summary>
+divUploadImages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.Label1">
+	<summary>
+Label1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.lblAssoicatedBlogID">
+	<summary>
+lblAssoicatedBlogID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.ddlAssoicatedBlogID">
+	<summary>
+ddlAssoicatedBlogID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.lnkGoToBlogNew">
+	<summary>
+lnkGoToBlogNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.actFileUpload">
+	<summary>
+actFileUpload control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.divDetails">
+	<summary>
+divDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.lblDetailsFormTitle">
+	<summary>
+lblDetailsFormTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.lblImage">
+	<summary>
+lblImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.imgPreview">
+	<summary>
+imgPreview control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.lblImageDescription">
+	<summary>
+lblImageDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.txtImageDescription">
+	<summary>
+txtImageDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.lblCaption">
+	<summary>
+lblCaption control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.txtCaption">
+	<summary>
+txtCaption control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.lblBlog">
+	<summary>
+lblBlog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.ddlBlog">
+	<summary>
+ddlBlog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.valCategory">
+	<summary>
+valCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.divEditGrid">
+	<summary>
+divEditGrid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.lblSelectGridTitle">
+	<summary>
+lblSelectGridTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.lblBlogFilter">
+	<summary>
+lblBlogFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.ddlBlogFilter">
+	<summary>
+ddlBlogFilter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.lnkGoToBlog">
+	<summary>
+lnkGoToBlog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.imageupload.grdBlog">
+	<summary>
+grdBlog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Blog.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Blog.lblSubTitle">
+	<summary>
+lblSubTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Blog.lblDate">
+	<summary>
+lblDate control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Blog.lblAuthor">
+	<summary>
+lblAuthor control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Blog.CommentCounter">
+	<summary>
+CommentCounter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Blog.divFacebook">
+	<summary>
+divFacebook control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Blog.litBlogContent">
+	<summary>
+litBlogContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Blog.pnlPhotos">
+	<summary>
+pnlPhotos control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Blog.rptImages">
+	<summary>
+rptImages control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Blog.Pager">
+	<summary>
+Pager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Blog.txtSubscribe">
+	<summary>
+txtSubscribe control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Blog.bntSubscribe">
+	<summary>
+bntSubscribe control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Diaries.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Diaries.rptDiaries">
+	<summary>
+rptDiaries control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.CommentCounter.lnkCounter">
+	<summary>
+lnkCounter control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.btnAddNewButtons">
+	<summary>
+btnAddNewButtons control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.divDetails">
+	<summary>
+divDetails control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.lblDetailsFormTitle">
+	<summary>
+lblDetailsFormTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.lblCategory">
+	<summary>
+lblCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.txtCategory">
+	<summary>
+txtCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.lblSeoTitle">
+	<summary>
+lblSeoTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.txtSeoTitle">
+	<summary>
+txtSeoTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.valSEOTitle">
+	<summary>
+valSEOTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.lblSeoDescription">
+	<summary>
+lblSeoDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.txtSeoDescription">
+	<summary>
+txtSeoDescription control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.lblBlog">
+	<summary>
+lblBlog control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.txtContent">
+	<summary>
+txtContent control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.lblReverseOrder">
+	<summary>
+lblReverseOrder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.chkReverseOrder">
+	<summary>
+chkReverseOrder control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.lblIsFeature">
+	<summary>
+lblIsFeature control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.chkFeature">
+	<summary>
+chkFeature control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.lblShowInMenu">
+	<summary>
+lblShowInMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.chkShowInMenu">
+	<summary>
+chkShowInMenu control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.lblShowFeature">
+	<summary>
+lblShowFeature control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.ddlShowFeature">
+	<summary>
+ddlShowFeature control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.lblShowFeatureCountry">
+	<summary>
+lblShowFeatureCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.ddlShowFeatureCountry">
+	<summary>
+ddlShowFeatureCountry control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.upImage">
+	<summary>
+upImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.lblCategoryImage">
+	<summary>
+lblCategoryImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.txtCategoryImage">
+	<summary>
+txtCategoryImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.imgCategoryImage">
+	<summary>
+imgCategoryImage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.RequiredFieldValidator1">
+	<summary>
+RequiredFieldValidator1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.btnCheckImageID">
+	<summary>
+btnCheckImageID control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.valCategory">
+	<summary>
+valCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.btnSubmit">
+	<summary>
+btnSubmit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.divEditGrid">
+	<summary>
+divEditGrid control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.lblSelectGridTitle">
+	<summary>
+lblSelectGridTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.grdCategory">
+	<summary>
+grdCategory control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_categories.lblError">
+	<summary>
+lblError control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Countries.head">
+	<summary>
+head control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Countries.lstNorthAmerica">
+	<summary>
+lstNorthAmerica control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Countries.lstCentralAmerica">
+	<summary>
+lstCentralAmerica control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Countries.lstSouthAmerica">
+	<summary>
+lstSouthAmerica control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Countries.lstEurope">
+	<summary>
+lstEurope control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Countries.lstAsia">
+	<summary>
+lstAsia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Countries.lstAfrica">
+	<summary>
+lstAfrica control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Countries.lstMiddleEast">
+	<summary>
+lstMiddleEast control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Countries.lstaustralasia">
+	<summary>
+lstaustralasia control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="P:Travel.Web.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:Travel.Web.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:Travel.Web.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:Travel.Web.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:Travel.Web.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="T:Travel.Web.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="F:Travel.Web.Manage.successMessage">
+	<summary>
+successMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Manage.setPassword">
+	<summary>
+setPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Manage.password">
+	<summary>
+password control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Manage.newPasswordMessage">
+	<summary>
+newPasswordMessage control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Manage.confirmPassword">
+	<summary>
+confirmPassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Manage.changePassword">
+	<summary>
+changePassword control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Manage.externalLoginsList">
+	<summary>
+externalLoginsList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Register.RegisterUser">
+	<summary>
+RegisterUser control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Register.RegisterUserWizardStep">
+	<summary>
+RegisterUserWizardStep control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Category.lblTitle">
+	<summary>
+lblTitle control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Category.litInformation">
+	<summary>
+litInformation control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Category.rptLinkedCategories">
+	<summary>
+rptLinkedCategories control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Category.CategoryList1">
+	<summary>
+CategoryList1 control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.Category.pager">
+	<summary>
+pager control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.OpenAuthProviders.providersList">
+	<summary>
+providersList control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_addnewbuttons.btnNew">
+	<summary>
+btnNew control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member><member name="F:Travel.Web.admin_addnewbuttons.btnEdit">
+	<summary>
+btnEdit control.
+</summary>
+	<remarks>
+Auto-generated field.
+To modify move field declaration from designer file to code-behind file.
+</remarks>
+</member>
+</members>
+</doc>

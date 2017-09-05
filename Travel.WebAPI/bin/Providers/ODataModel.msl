@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="TravelModelStoreContainer" CdmEntityContainer="WebAPIContext">
+    <EntitySetMapping Name="Authors">
+      <EntityTypeMapping TypeName="ODataModel.Author">
+        <MappingFragment StoreEntitySet="Author">
+          <ScalarProperty Name="AuthorID" ColumnName="AuthorID" />
+          <ScalarProperty Name="AuthorName" ColumnName="AuthorName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Categories">
+      <EntityTypeMapping TypeName="ODataModel.Category">
+        <MappingFragment StoreEntitySet="Category">
+          <ScalarProperty Name="CategoryImageID" ColumnName="CategoryImageID" />
+          <ScalarProperty Name="ShowInMenu" ColumnName="ShowInMenu" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="ParentCountryID" ColumnName="ParentCountryID" />
+          <ScalarProperty Name="ParentCategoryID" ColumnName="ParentCategoryID" />
+          <ScalarProperty Name="IsFeature" ColumnName="IsFeature" />
+          <ScalarProperty Name="ReverseDateOrder" ColumnName="ReverseDateOrder" />
+          <ScalarProperty Name="CategoryInformation" ColumnName="CategoryInformation" />
+          <ScalarProperty Name="CategoryDescription" ColumnName="CategoryDescription" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Continents">
+      <EntityTypeMapping TypeName="ODataModel.Continent">
+        <MappingFragment StoreEntitySet="Continent">
+          <ScalarProperty Name="ContinentDescription" ColumnName="ContinentDescription" />
+          <ScalarProperty Name="ContinentID" ColumnName="ContinentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Countries">
+      <EntityTypeMapping TypeName="ODataModel.Country">
+        <MappingFragment StoreEntitySet="Country">
+          <ScalarProperty Name="CountryImageID" ColumnName="CountryImageID" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="CountryInformation" ColumnName="CountryInformation" />
+          <ScalarProperty Name="ContinentID" ColumnName="ContinentID" />
+          <ScalarProperty Name="CountryDescription" ColumnName="CountryDescription" />
+          <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vBlogs">
+      <EntityTypeMapping TypeName="ODataModel.vBlog">
+        <MappingFragment StoreEntitySet="vBlog">
+          <ScalarProperty Name="ShowPhotos" ColumnName="ShowPhotos" />
+          <ScalarProperty Name="NiceDescription" ColumnName="NiceDescription" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="ShowInSlideShow" ColumnName="ShowInSlideShow" />
+          <ScalarProperty Name="IsFullScreen" ColumnName="IsFullScreen" />
+          <ScalarProperty Name="IsVisible" ColumnName="IsVisible" />
+          <ScalarProperty Name="CategoryImageDescription" ColumnName="CategoryImageDescription" />
+          <ScalarProperty Name="CategoryImageID" ColumnName="CategoryImageID" />
+          <ScalarProperty Name="IsFeature" ColumnName="IsFeature" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="AuthorID" ColumnName="AuthorID" />
+          <ScalarProperty Name="ContinentDescription" ColumnName="ContinentDescription" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+          <ScalarProperty Name="CategoryDescription" ColumnName="CategoryDescription" />
+          <ScalarProperty Name="CountryDescription" ColumnName="CountryDescription" />
+          <ScalarProperty Name="AuthorName" ColumnName="AuthorName" />
+          <ScalarProperty Name="ContentPreview" ColumnName="ContentPreview" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="TitleURL" ColumnName="TitleURL" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="BlogID" ColumnName="BlogID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vCategories">
+      <EntityTypeMapping TypeName="ODataModel.vCategory">
+        <MappingFragment StoreEntitySet="vCategory">
+          <ScalarProperty Name="ImageDescription" ColumnName="ImageDescription" />
+          <ScalarProperty Name="CategoryImageID" ColumnName="CategoryImageID" />
+          <ScalarProperty Name="ShowInMenu" ColumnName="ShowInMenu" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="ParentCountryID" ColumnName="ParentCountryID" />
+          <ScalarProperty Name="ParentCategoryID" ColumnName="ParentCategoryID" />
+          <ScalarProperty Name="IsFeature" ColumnName="IsFeature" />
+          <ScalarProperty Name="ReverseDateOrder" ColumnName="ReverseDateOrder" />
+          <ScalarProperty Name="CategoryInformation" ColumnName="CategoryInformation" />
+          <ScalarProperty Name="CategoryDescription" ColumnName="CategoryDescription" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="CategoryURL" ColumnName="CategoryURL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vCountries">
+      <EntityTypeMapping TypeName="ODataModel.vCountry">
+        <MappingFragment StoreEntitySet="vCountry">
+          <ScalarProperty Name="ImageDescription" ColumnName="ImageDescription" />
+          <ScalarProperty Name="CountryImageID" ColumnName="CountryImageID" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="CountryInformation" ColumnName="CountryInformation" />
+          <ScalarProperty Name="ContinentID" ColumnName="ContinentID" />
+          <ScalarProperty Name="CountryDescription" ColumnName="CountryDescription" />
+          <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+          <ScalarProperty Name="ContinentDescription" ColumnName="ContinentDescription" />
+          <ScalarProperty Name="CountryURL" ColumnName="CountryURL" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="vUploadedImages">
+      <EntityTypeMapping TypeName="ODataModel.vUploadedImage">
+        <MappingFragment StoreEntitySet="vUploadedImages">
+          <ScalarProperty Name="BlogTitle" ColumnName="BlogTitle" />
+          <ScalarProperty Name="DateUploaded" ColumnName="DateUploaded" />
+          <ScalarProperty Name="BlogID" ColumnName="BlogID" />
+          <ScalarProperty Name="ImageCaption" ColumnName="ImageCaption" />
+          <ScalarProperty Name="ImageDescription" ColumnName="ImageDescription" />
+          <ScalarProperty Name="ImageID" ColumnName="ImageID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Blogs">
+      <EntityTypeMapping TypeName="ODataModel.Blog">
+        <MappingFragment StoreEntitySet="Blog">
+          <ScalarProperty Name="ShowPhotos" ColumnName="ShowPhotos" />
+          <ScalarProperty Name="NiceDescription" ColumnName="NiceDescription" />
+          <ScalarProperty Name="SEODescription" ColumnName="SEODescription" />
+          <ScalarProperty Name="SEOTitle" ColumnName="SEOTitle" />
+          <ScalarProperty Name="ShowInSlideShow" ColumnName="ShowInSlideShow" />
+          <ScalarProperty Name="IsFullScreen" ColumnName="IsFullScreen" />
+          <ScalarProperty Name="IsVisible" ColumnName="IsVisible" />
+          <ScalarProperty Name="CategoryImageID" ColumnName="CategoryImageID" />
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+          <ScalarProperty Name="AuthorID" ColumnName="AuthorID" />
+          <ScalarProperty Name="Content" ColumnName="Content" />
+          <ScalarProperty Name="DateCreated" ColumnName="DateCreated" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="BlogID" ColumnName="BlogID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Locations">
+      <EntityTypeMapping TypeName="ODataModel.Location">
+        <MappingFragment StoreEntitySet="Location">
+          <ScalarProperty Name="Date" ColumnName="Date" />
+          <ScalarProperty Name="Location1" ColumnName="Location" />
+          <ScalarProperty Name="Longitude" ColumnName="Longitude" />
+          <ScalarProperty Name="Latitude" ColumnName="Latitude" />
+          <ScalarProperty Name="LocationID" ColumnName="LocationID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UploadedImages">
+      <EntityTypeMapping TypeName="ODataModel.UploadedImage">
+        <MappingFragment StoreEntitySet="UploadedImages">
+          <ScalarProperty Name="DateUploaded" ColumnName="DateUploaded" />
+          <ScalarProperty Name="BlogID" ColumnName="BlogID" />
+          <ScalarProperty Name="ImageCaption" ColumnName="ImageCaption" />
+          <ScalarProperty Name="ImageDescription" ColumnName="ImageDescription" />
+          <ScalarProperty Name="ImageID" ColumnName="ImageID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

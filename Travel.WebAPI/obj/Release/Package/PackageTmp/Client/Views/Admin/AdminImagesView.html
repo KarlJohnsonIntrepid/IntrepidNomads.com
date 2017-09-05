@@ -1,0 +1,96 @@
+﻿<spinner class="grid-spinner" ng-show="initializing" />
+<div class="panel panel-default">
+    <h1 class="admin-title">Images</h1>
+            <!--Grid-->
+            <div class="row">
+                <div class="col-md-12">
+
+                    <label for="txtSearch">Search:</label> <input type="text" name="txtSearch" ng-model="search" />
+                    <a href="uploadimages" target="_self" class="btn btn-default">Add New</a>
+                </div>
+            </div>
+
+            <br />
+
+            <table class="table table-striped table-bordered " ng-hide="initializing">
+                <thead>
+                    <tr>
+                        <th class="buttonColumn"></th>
+                        <th></th>
+                        <th>Image URL</th>
+                        <th>Blog</th>
+                        <th>Date</th>
+                        <th class="buttonColumn"></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr ng-repeat="i in pagedItems|filter:search track by $index">
+                        <td><button class="btn btn-sm" ng-click="editRow($index)" data-toggle="modal" data-target="#detailsModal">Edit</button></td>
+                        <td> <img ng-src="{{i.thumbnailImageURL}} " height="40" /></td>
+                        <td>{{i.originalImageURL}}</td>
+                        <td><span ng-bind="i.blogTitle" /></td>
+                        <td>{{i.dateUploaded | date}}</td>
+                        <td><button class="btn btn-sm" ng-click="deleteRow($index)">Delete</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="text-center" ng-hide="initializing">
+                <uib-pagination total-items="totalItems" ng-model="currentPage" items-per-page="pager.numPerPage()" ng-change="pageChanged()" ng-hide="initializing" rotate="true" boundary-link-numbers="true" max-size="10"></uib-pagination>
+            </div>
+            <!--End Grid-->
+     
+
+</div>
+
+<!--Start Model-->
+<div id="detailsModal" class="modal fade" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog modal-sm">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+
+                <h3 class="modal-title">Images - {{selectedItem.imageDescription}}</h3>
+            </div>
+            <div class="modal-body">
+
+                <!--Details Form-->
+
+                <form name="form" ng-submit="submitForm()">
+       
+                    <div class="form-group">
+                        <label for="imgPreview" >Image Preview:</label>
+                        <img name="imgPreview" class="img-responsive" ng-src="{{selectedItem.thumbnailImageURL}}" />
+                    </div>
+
+                    <div class="form-group">
+                        <label  for="lblImageDescription">Image Name:</label>
+                        <input type="text" name="txtImageDescription" ng-model="selectedItem.imageDescription"  class="form-control" readonly />
+                    </div>
+
+                    <div class="form-group">
+                        <label  for="txtCaption">Caption:</label>
+                        <input type="text" name="txtCaption" ng-model="selectedItem.imageCaption"  class="form-control" />
+                    </div>
+
+                    <div class="form-group">
+                        <label for="ddlBlog">Blog:</label>
+                        <select name="ddlBlog" class="form-control" ng-model="selectedItem.blogID" ng-options="b.blogID as b.title for b in blogs">
+                            <option value="">None</option>
+                        </select>
+                    </div>
+
+                    <hr />
+
+                    <modal-button-bar datasource="pagedItems" selected="selectedIndex" isNew="isNew" setselected="setSelectedItem(i)" submit="submitForm()"></modal-button-bar>
+
+                </form>
+
+                <!--End Details Form-->
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--/modal-->
